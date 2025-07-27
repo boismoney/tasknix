@@ -1,0 +1,12 @@
+title: TaskNix
+description: Your task management site
+baseurl: ""
+url: "https://yourdomain.com"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+markdown: kramdown
+highlighter: rouge
+theme: minima
