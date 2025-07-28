@@ -11,15 +11,17 @@ Users report 10-20x cost savings compared to Zapier, but 73% of satisfaction dep
 
 n8n's user satisfaction tells a complex story that varies dramatically based on technical background and expectations. Recent data reveals concerning trends in support quality, but also highlights genuine success stories from users who push through the initial learning curve.
 
-**n8n User Satisfaction Timeline (Trustpilot Reviews)**
-```
-Q1 2024: ★★★★☆ (3.8/5) - Initial positive reception
-Q2 2024: ★★★★☆ (4.1/5) - Peak satisfaction period  
-Q3 2024: ★★★☆☆ (3.2/5) - Support issues emerge
-Q4 2024: ★★★★☆ (3.6/5) - Slight recovery
-Q1 2025: ★★★☆☆ (2.9/5) - Declining satisfaction
-Q2 2025: ★★★☆☆ (2.8/5) - Continued decline
-```
+**n8n User Satisfaction Timeline**
+
+| Period | Rating | Trend | Key Issues |
+|--------|--------|-------|------------|
+| Q1 2024 | 3.8/5 | ↗️ | Initial positive reception |
+| Q2 2024 | 4.1/5 | ↗️ | Peak satisfaction period |
+| Q3 2024 | 3.2/5 | ↘️ | Support issues emerge |
+| Q4 2024 | 3.6/5 | ↗️ | Slight recovery |
+| Q1 2025 | 2.9/5 | ↘️ | Declining satisfaction |
+| Q2 2025 | 2.8/5 | ↘️ | Continued decline |
+
 *Figure 1. n8n user satisfaction trends showing support service decline (Trustpilot data, 2024-2025)*
 
 The satisfaction timeline reveals a troubling pattern: while users initially praised n8n's capabilities in early 2024, support-related complaints have significantly impacted overall ratings. One user reported being "completely locked out of accessing my workflows, directly costing me money and valuable business time" with no meaningful help from the support team.
@@ -31,11 +33,13 @@ However, technical users paint a different picture. An experienced Make.com deve
 The data shows a clear divide between user experiences based on technical capability:
 
 **User Satisfaction by Technical Background**
-```
-Technical Users (4+ rating):     ████████████████████████████████████████████ 73%
-Non-Technical Struggling (2-3):  ████████████ 19%  
-Non-Technical Success Stories:   ███ 8%
-```
+
+| User Type | Satisfaction Level | Percentage | Notes |
+|-----------|-------------------|------------|-------|
+| Technical Users | 4+ rating | 73% | High satisfaction with flexibility |
+| Non-Technical (Struggling) | 2-3 rating | 19% | Learning curve challenges |
+| Non-Technical (Success) | 4+ rating | 8% | Breakthrough after persistence |
+
 *Figure 2. n8n user satisfaction breakdown by technical expertise (2024-2025 user reviews)*
 
 Interestingly, some non-technical users do break through the learning barrier. One mature adult learning AI automation noted: "At 6 months into my AI Automation learning journey, I must say I am blown away at how convenient it is to learn agentic automation using n8n workflows."
@@ -68,13 +72,15 @@ n8n's power comes from its technical flexibility, but this creates a clear divid
 ### What Technical Users Love
 
 **Most Valued Features by Technical Users**
-```
-JavaScript Integration:     ████████████████████████████ 28%
-Custom Node Development:    ████████████████████████ 24%
-Self-Hosting Capabilities:  ██████████████████████ 22%
-Open Source Flexibility:    ███████████████ 15%
-Complex Workflow Logic:     ███████████ 11%
-```
+
+| Feature | Percentage | Why It Matters |
+|---------|------------|----------------|
+| JavaScript Integration | 28% | Custom code in workflows |
+| Custom Node Development | 24% | Proprietary system connections |
+| Self-Hosting Capabilities | 22% | Data control and cost savings |
+| Open Source Flexibility | 15% | Customization freedom |
+| Complex Workflow Logic | 11% | Advanced automation scenarios |
+
 *Figure 3. n8n feature preferences among technical users (community discussion analysis)*
 
 Advanced users consistently praise n8n's ability to "write JavaScript functions directly in your workflows, create custom nodes, and implement highly complex logic without friction." The platform's open-source nature allows for customization that proprietary tools cannot match.
@@ -121,15 +127,17 @@ Organizations with technical resources gain substantial advantages through self-
 
 Recent user experiences reveal concerning trends in n8n's support quality, particularly for cloud service customers.
 
-**n8n Support Quality Ratings Over Time**
-```
-Q1 2024: ████████████████████ 4.0/5
-Q2 2024: ███████████████████ 3.8/5
-Q3 2024: ████████████████ 3.2/5
-Q4 2024: ███████████████ 3.0/5
-Q1 2025: ████████████ 2.5/5
-Q2 2025: ██████████ 2.1/5
-```
+**n8n Support Quality Decline**
+
+| Period | Rating | Trend | Common Complaints |
+|--------|--------|-------|-------------------|
+| Q1 2024 | 4.0/5 | ✅ | Generally positive |
+| Q2 2024 | 3.8/5 | ↘️ | Minor issues emerging |
+| Q3 2024 | 3.2/5 | ↘️ | Response time delays |
+| Q4 2024 | 3.0/5 | ↘️ | Account access problems |
+| Q1 2025 | 2.5/5 | ↘️ | Data loss incidents |
+| Q2 2025 | 2.1/5 | ↘️ | No support responses |
+
 *Figure 4. n8n support service quality decline based on user feedback (2024-2025)*
 
 Multiple users report significant support failures:
