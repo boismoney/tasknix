@@ -13,14 +13,54 @@ n8n's user satisfaction tells a complex story that varies dramatically based on 
 
 **n8n User Satisfaction Timeline**
 
-| Period | Rating | Trend | Key Issues |
-|--------|--------|-------|------------|
-| Q1 2024 | 3.8/5 | ↗️ | Initial positive reception |
-| Q2 2024 | 4.1/5 | ↗️ | Peak satisfaction period |
-| Q3 2024 | 3.2/5 | ↘️ | Support issues emerge |
-| Q4 2024 | 3.6/5 | ↗️ | Slight recovery |
-| Q1 2025 | 2.9/5 | ↘️ | Declining satisfaction |
-| Q2 2025 | 2.8/5 | ↘️ | Continued decline |
+<table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 12px;">Period</th>
+      <th style="border: 1px solid #ddd; padding: 12px;">Rating</th>
+      <th style="border: 1px solid #ddd; padding: 12px;">Trend</th>
+      <th style="border: 1px solid #ddd; padding: 12px;">Key Issues</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q1 2024</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">3.8/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">↗️</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Initial positive reception</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q2 2024</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">4.1/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">↗️</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Peak satisfaction period</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q3 2024</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">3.2/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">↘️</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Support issues emerge</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q4 2024</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">3.6/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">↗️</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Slight recovery</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q1 2025</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">2.9/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">↘️</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Declining satisfaction</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q2 2025</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">2.8/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">↘️</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Continued decline</td>
+    </tr>
+  </tbody>
+</table>
 
 *Figure 1. n8n user satisfaction trends showing support service decline (Trustpilot data, 2024-2025)*
 
@@ -34,11 +74,36 @@ The data shows a clear divide between user experiences based on technical capabi
 
 **User Satisfaction by Technical Background**
 
-| User Type | Satisfaction Level | Percentage | Notes |
-|-----------|-------------------|------------|-------|
-| Technical Users | 4+ rating | 73% | High satisfaction with flexibility |
-| Non-Technical (Struggling) | 2-3 rating | 19% | Learning curve challenges |
-| Non-Technical (Success) | 4+ rating | 8% | Breakthrough after persistence |
+<table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 12px;">User Type</th>
+      <th style="border: 1px solid #ddd; padding: 12px;">Satisfaction</th>
+      <th style="border: 1px solid #ddd; padding: 12px;">Percentage</th>
+      <th style="border: 1px solid #ddd; padding: 12px;">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #e8f5e8;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Technical Users</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">4+ rating</td>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>73%</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">High satisfaction with flexibility</td>
+    </tr>
+    <tr style="background-color: #ffeaa7;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Non-Technical Struggling</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">2-3 rating</td>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>19%</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Learning curve challenges</td>
+    </tr>
+    <tr style="background-color: #d1f2eb;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Non-Technical Success</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">4+ rating</td>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>8%</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Breakthrough after persistence</td>
+    </tr>
+  </tbody>
+</table>
 
 *Figure 2. n8n user satisfaction breakdown by technical expertise (2024-2025 user reviews)*
 
@@ -73,13 +138,42 @@ n8n's power comes from its technical flexibility, but this creates a clear divid
 
 **Most Valued Features by Technical Users**
 
-| Feature | Percentage | Why It Matters |
-|---------|------------|----------------|
-| JavaScript Integration | 28% | Custom code in workflows |
-| Custom Node Development | 24% | Proprietary system connections |
-| Self-Hosting Capabilities | 22% | Data control and cost savings |
-| Open Source Flexibility | 15% | Customization freedom |
-| Complex Workflow Logic | 11% | Advanced automation scenarios |
+<table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 12px;">Feature</th>
+      <th style="border: 1px solid #ddd; padding: 12px;">Percentage</th>
+      <th style="border: 1px solid #ddd; padding: 12px;">Why It Matters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #e3f2fd;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>JavaScript Integration</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>28%</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Custom code in workflows</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Custom Node Development</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>24%</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Proprietary system connections</td>
+    </tr>
+    <tr style="background-color: #f3e5f5;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Self-Hosting Capabilities</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>22%</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Data control and cost savings</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Open Source Flexibility</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>15%</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Customization freedom</td>
+    </tr>
+    <tr style="background-color: #fff3e0;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Complex Workflow Logic</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>11%</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Advanced automation scenarios</td>
+    </tr>
+  </tbody>
+</table>
 
 *Figure 3. n8n feature preferences among technical users (community discussion analysis)*
 
@@ -129,14 +223,54 @@ Recent user experiences reveal concerning trends in n8n's support quality, parti
 
 **n8n Support Quality Decline**
 
-| Period | Rating | Trend | Common Complaints |
-|--------|--------|-------|-------------------|
-| Q1 2024 | 4.0/5 | ✅ | Generally positive |
-| Q2 2024 | 3.8/5 | ↘️ | Minor issues emerging |
-| Q3 2024 | 3.2/5 | ↘️ | Response time delays |
-| Q4 2024 | 3.0/5 | ↘️ | Account access problems |
-| Q1 2025 | 2.5/5 | ↘️ | Data loss incidents |
-| Q2 2025 | 2.1/5 | ↘️ | No support responses |
+<table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 12px;">Period</th>
+      <th style="border: 1px solid #ddd; padding: 12px;">Rating</th>
+      <th style="border: 1px solid #ddd; padding: 12px;">Trend</th>
+      <th style="border: 1px solid #ddd; padding: 12px;">Common Complaints</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #d4edda;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q1 2024</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">4.0/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">✅</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Generally positive</td>
+    </tr>
+    <tr style="background-color: #fff3cd;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q2 2024</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">3.8/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">↘️</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Minor issues emerging</td>
+    </tr>
+    <tr style="background-color: #ffeaa7;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q3 2024</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">3.2/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">↘️</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Response time delays</td>
+    </tr>
+    <tr style="background-color: #f8d7da;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q4 2024</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">3.0/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">↘️</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Account access problems</td>
+    </tr>
+    <tr style="background-color: #f5c6cb;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q1 2025</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">2.5/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">↘️</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">Data loss incidents</td>
+    </tr>
+    <tr style="background-color: #f1b0b7;">
+      <td style="border: 1px solid #ddd; padding: 12px;"><strong>Q2 2025</strong></td>
+      <td style="border: 1px solid #ddd; padding: 12px;">2.1/5</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">↘️</td>
+      <td style="border: 1px solid #ddd; padding: 12px;">No support responses</td>
+    </tr>
+  </tbody>
+</table>
 
 *Figure 4. n8n support service quality decline based on user feedback (2024-2025)*
 
