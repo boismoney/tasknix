@@ -39,7 +39,6 @@ kramdown:
 
 # Plugins
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag  # For better SEO handling
 
