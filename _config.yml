@@ -1,86 +1,89 @@
-#
-# This file contains configuration flags to customize your site
-#
+# Site Configuration for TaskNix.com
+name: TaskNix
+description: Expert reviews of productivity tools, software, and services
+avatar: https://tasknix.com/images/tasknix-logo.png  # Update with your actual logo URL
 
-# Name of your site (displayed in the header)
-name: Your Name
+# Site URL configuration
+url: "https://tasknix.com"  # Your production URL
+baseurl: ""  # Leave empty unless using project GitHub Pages
 
-# Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url:
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
+# Content settings
 permalink: /:title/
+timezone: America/New_York  # Set your preferred timezone
+future: false  # Don't publish posts with future dates
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
+# SEO Optimization
+title: TaskNix | Productivity Tools Reviews & Comparisons
+keywords: "productivity tools, software reviews, task management, time tracking"
+twitter_username: tasknix  # Update with your Twitter handle
+github_username: tasknix  # Update with your GitHub org
 
-# Jekyll 3 now only supports Kramdown for Markdown
+# Social/Footer links
+footer-links:
+  twitter: tasknix
+  github: tasknix/tasknix.github.io  # Update with your repo
+  linkedin: company/tasknix  # Update with your LinkedIn
+  rss: /feed.xml
+
+# Analytics and Comments
+google_analytics: UA-XXXXXX-X  # Replace with your GA tracking ID
+disqus: tasknix  # Replace with your Disqus shortname
+
+# Technical Configuration
+markdown: kramdown
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
-# Set the Sass partials directory, as we're using @imports
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag  # For better SEO handling
+
+# Sass processing
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: :compressed  # Minified for production
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
+# Exclude files from build
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
+  - vendor
+  - .idea
+  - .vscode
+
+# TaskNix-specific configurations
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      affiliate_disclosure: true
+      rating_system: true
+      toc: true  # Table of contents
+
+# Content categories matching your requirements
+collections:
+  productivity_tools:
+    output: true
+    permalink: /:collection/:name/
+  categories:
+    - project_management
+    - note_taking
+    - time_tracking
+    - communication
+    - file_sharing
+    - automation
+    - writing_software
+    - scheduling_apps
+
+# Version info
+version: v1.0.0
