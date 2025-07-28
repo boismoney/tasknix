@@ -37,11 +37,7 @@ kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
 
-# Plugins
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag  # For better SEO handling
+
 
 # Sass processing
 sass:
