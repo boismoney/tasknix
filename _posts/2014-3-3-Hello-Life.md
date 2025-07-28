@@ -1,12 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: n8n Review 2025: The Ultimate Guide to Open-Source Workflow Automation
 ---
 
-n8n Review 2025: The Ultimate Guide to Open-Source Workflow Automation
-======================================================================
-
-**Featured Snippet**"Open-source workflow automation with 68% satisfaction for technical users, though support issues affect 41% of cloud customers."
+**Product Report** "Open-source workflow automation with 68% satisfaction for technical users, though support issues affect 41% of cloud customers."
 
 Introduction
 ------------
@@ -155,6 +152,3 @@ n8n delivers unparalleled customization for technical users but requires toleran
 *   Contradictions Preserved: 22% negative vs 68% positive experiences
     
 *   Last Updated: July 28, 2025
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
