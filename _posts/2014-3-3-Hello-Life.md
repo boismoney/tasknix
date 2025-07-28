@@ -2,7 +2,7 @@
 layout: post
 title: "n8n Review 2025: The Ultimate Guide to Open-Source Workflow Automation"
 date: 2025-07-28 14:30:00 +0000
-categories: [automation, workflow-tools]
+categories: [automation]
 tags: [n8n, self-hosted, zapier-alternative]
 author: "Automation Review Team"
 image:
