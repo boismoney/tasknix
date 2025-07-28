@@ -39,9 +39,36 @@ kramdown:
 
 # Plugins
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate-v2
   - jekyll-seo-tag  # For better SEO handling
+
+# SEO TAG CONFIG (recommended)
+jekyll-seo-tag:
+  meta_tags: # Control what appears in meta tags
+    - name: "twitter:card"
+      value: "summary_large_image"
+    - name: "og:image"
+      value: "/assets/your-default-social-image.jpg"
+
+# SITEMAP CONFIG (optional)
+sitemap:
+  lastmod: date # Adds last modified dates
+  priority: 0.7 # Default priority
+  changefreq: weekly
+
+# PAGINATION CONFIG (for review lists)
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/reviews/:num/'
+  sort_field: 'date'
+  sort_reverse: true
+
+# FEED CONFIG (RSS/Atom)
+feed:
+  path: feed.xml
+  limit: 20
 
 # Sass processing
 sass:
