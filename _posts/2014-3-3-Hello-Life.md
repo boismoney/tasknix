@@ -10,6 +10,9 @@ image:
   alt: n8n workflow interface
 ---
 
+![_config.yml]({{ site.baseurl }}/images/config.png)
+
+
 n8n Review 2025: The Ultimate Guide to Open-Source Workflow Automation
 ======================================================================
 
