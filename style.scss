@@ -639,367 +639,45 @@ th {
     }
   }
   
-  // =============================================
-// ENHANCED MOBILE RESPONSIVE TABLES
-// =============================================
-
-// Enhanced table styles - works with your existing HTML
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 2rem 0;
-  font-size: 0.95rem;
-  background: var(--card-bg);
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  
-  th, td {
-    padding: 1rem;
-    text-align: left;
-    border: 1px solid var(--border-color);
-    vertical-align: top;
-  }
-  
-  th {
-    background: rgba(67, 97, 238, 0.1);
-    font-weight: 600;
-    color: var(--secondary-color);
-    position: relative;
-  }
-  
-  tbody tr:nth-child(even) {
-    background: rgba(0,0,0,0.02);
-  }
-  
-  // Style checkmarks and X marks
-  td {
-    &:contains("✅") {
-      color: var(--success-color);
-    }
-    
-    &:contains("❌") {
-      color: var(--danger-color);
-    }
-  }
-  
-  .winner {
-    background: rgba(76, 201, 240, 0.1);
-    position: relative;
-    
-    &::after {
-      content: "★";
-      color: var(--warning-color);
-      position: absolute;
-      right: 0.5rem;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  }
-  
-  // MOBILE RESPONSIVE STYLES
-  @include mobile {
-    font-size: 12px;
-    margin: 1.5rem 0;
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    
-    // Smaller padding and font for mobile
-    th, td {
-      padding: 8px 6px;
-      font-size: 11px;
-      min-width: 90px; // Prevents columns from getting too narrow
-      white-space: nowrap;
-    }
-    
-    // Special styling for first column (Feature/Criteria)
-    th:first-child,
-    td:first-child {
-      position: sticky;
-      left: 0;
-      z-index: 10;
-      background: var(--primary-color);
-      color: white;
-      font-weight: 600;
-      min-width: 120px; // More space for feature names
-      white-space: normal; // Allow wrapping for long feature names
-      font-size: 10px;
-    }
-    
-    // Header row styling
-    th {
-      background: var(--secondary-color);
-      color: white;
-      position: sticky;
-      top: 0;
-      z-index: 15;
-      font-size: 10px;
-      text-align: center;
-    }
-    
-    // First header cell (Feature/Criteria) gets special treatment
-    th:first-child {
-      z-index: 20;
-      background: var(--primary-hover);
-      text-align: left;
-    }
-    
-    // Style the service/product columns
-    th:not(:first-child) {
-      background: var(--accent-color);
-      min-width: 100px;
-    }
-    
-    // Better styling for checkmarks and crosses
-    td:not(:first-child) {
-      text-align: center;
-      font-weight: 500;
-    }
-    
-    // Highlight important cells
-    td {
-      &:contains("✅") {
-        background: rgba(76, 201, 240, 0.1);
-        color: var(--success-color);
-        font-weight: 600;
-      }
-      
-      &:contains("❌") {
-        background: rgba(249, 65, 68, 0.05);
-        color: var(--danger-color);
-      }
-      
-      // Price cells styling
-      &:contains("$") {
-        background: rgba(248, 150, 30, 0.1);
-        font-weight: 600;
-        color: var(--warning-color);
-      }
-    }
-    
-    // Add scroll indicator
-    &::after {
-      content: "← Scroll left/right to compare all options →";
-      display: block;
-      text-align: center;
-      font-size: 10px;
-      color: var(--text-light);
-      padding: 8px;
-      background: rgba(0,0,0,0.02);
-      border-top: 1px solid var(--border-color);
-      white-space: normal;
-      font-style: italic;
-      position: sticky;
-      left: 0;
-    }
-  }
-  
-  // Tablet styles (between mobile and desktop)
-  @media screen and (max-width: 1024px) and (min-width: 769px) {
-    font-size: 13px;
-    
-    th, td {
-      padding: 10px 8px;
-      font-size: 12px;
-    }
-    
-    th:first-child,
-    td:first-child {
-      min-width: 140px;
-    }
-  }
-}
-
-// Enhanced comparison table
-.comparison-table {
-  @extend table;
-  
-  @include mobile {
-    th:first-child::before {
-      content: "📊 ";
-    }
-  }
-}
-
-// Enhanced entry table styles
-.entry {
+  // Tables
   table {
+    width: 100%;
     margin: 2rem 0;
-    border-radius: 8px;
-    overflow: hidden;
-    
-    @include mobile {
-      margin: 1.5rem 0;
-      
-      // Highlight important columns
-      th:nth-child(2),
-      td:nth-child(2) {
-        background: rgba(72, 149, 239, 0.05);
-      }
-      
-      th:last-child,
-      td:last-child {
-        background: rgba(76, 201, 240, 0.05);
-      }
-    }
-  }
-}
-
-// Pricing table mobile enhancements
-.pricing-table {
-  @include mobile {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    
-    .pricing-tier {
-      padding: 1.25rem;
-      
-      &.featured::before {
-        right: 1rem;
-        font-size: 0.7rem;
-      }
-    }
-  }
-}
-
-// Card-based table alternative for very small screens
-@media screen and (max-width: 480px) {
-  .table-cards-mobile {
-    table {
-      display: none;
-    }
-  }
-  
-  .table-card {
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    
-    &.winner {
-      border-color: var(--success-color);
-      background: rgba(76, 201, 240, 0.05);
-    }
-    
-    &-header {
-      font-weight: 600;
-      color: var(--primary-color);
-      margin-bottom: 0.75rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid var(--border-color);
-      font-size: 1rem;
-      
-      &.winner::after {
-        content: " ★";
-        color: var(--warning-color);
-      }
-    }
-    
-    &-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      padding: 0.5rem 0;
-      border-bottom: 1px solid rgba(0,0,0,0.05);
-      
-      &:last-child {
-        border-bottom: none;
-      }
-    }
-    
-    &-label {
-      font-weight: 500;
-      color: var(--text-light);
-      font-size: 0.875rem;
-      flex: 0 0 45%;
-    }
-    
-    &-value {
-      font-weight: 500;
-      text-align: right;
-      font-size: 0.875rem;
-      flex: 1;
-    }
-  }
-}
-
-// Dark mode table adjustments
-@media (prefers-color-scheme: dark) {
-  table {
-    background: var(--card-bg);
-    
-    th {
-      background: rgba(138, 180, 248, 0.2);
-      color: var(--primary-color);
-    }
-    
-    @include mobile {
-      th {
-        background: var(--primary-color);
-        color: var(--background);
-      }
-      
-      th:first-child,
-      td:first-child {
-        background: rgba(138, 180, 248, 0.25);
-      }
-    }
-  }
-  
-  .table-card {
-    background: var(--card-bg);
-    border-color: var(--border-color);
-  }
-}
-
-// Utility classes for manual table enhancement
-.table-responsive {
-  @extend .table-wrapper;
-}
-
-.table-compact {
-  font-size: 0.875rem;
-  
-  th, td {
-    padding: 0.75rem 0.5rem;
-  }
-  
-  @include mobile {
-    font-size: 11px;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    min-width: 600px; /* Ensures horizontal scroll is needed on narrow screens */
+    display: block;
+   overflow-x: auto;
+   white-space: nowrap;
     
     th, td {
-      padding: 6px 4px;
-      min-width: 80px;
+      padding: 1rem;
+      text-align: left;
+      border: 1px solid var(--border-color);
+    }
+    
+    th {
+      background-color: rgba(67, 97, 238, 0.1);
+      font-weight: 600;
+      color: var(--secondary-color);
+    }
+    
+    tr:nth-child(even) {
+      background-color: rgba(0,0,0,0.02);
+    }
+    
+    .winner {
+      background-color: rgba(76, 201, 240, 0.1);
+      position: relative;
+      
+      &::after {
+        content: "★";
+        color: var(--warning-color);
+        position: absolute;
+        right: 0.5rem;
+      }
     }
   }
-}
-
-.table-highlight-first {
-  th:first-child,
-  td:first-child {
-    background: rgba(67, 97, 238, 0.1);
-    font-weight: 600;
-  }
-}
-
-// Auto-wrap tables in scroll containers (if you want automatic wrapping)
-// Uncomment this if you want ALL tables to automatically get scroll wrappers
-/*
-table:not(.no-wrapper) {
-  @include mobile {
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    white-space: nowrap;
-  }
-}
-*/
   
   // Blockquotes
   blockquote {
