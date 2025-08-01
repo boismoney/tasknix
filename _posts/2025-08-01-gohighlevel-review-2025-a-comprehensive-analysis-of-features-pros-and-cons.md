@@ -330,7 +330,7 @@ The all-in-one platform space has become fiercely competitive. Here’s how GoHi
 
 ---
 
-## 🥊 Head-to-Head Comparison Table - 📊 SaaS Platform Comparison: GoHighLevel vs. ClickFunnels vs. Others
+## **📊 SaaS Platform Comparison: GoHighLevel vs. ClickFunnels vs. Others**  
 
 <details>
 <summary><strong>🔵 GoHighLevel</strong></summary>
