@@ -153,27 +153,62 @@ figure {
 /*********************/
 
 // HEADER
+// IMPROVED HEADER WITH ENHANCED VISIBILITY
 .wrapper-masthead {
-  background: white;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  // Enhanced background with better visual separation
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
+  // Improved shadow for better depth perception
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
+  
+  // Enhanced sticky positioning
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1000; // Increased z-index for better layering
+  
+  // Smooth transitions for scroll interactions
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  // Border for better definition
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  
+  // Ensure minimum height for touch targets
+  min-height: 80px;
+}
+
+// Add shrink effect on scroll (requires JS)
+.wrapper-masthead.scrolled {
+  min-height: 60px;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.12);
+  
+  .site-avatar {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .site-name {
+    font-size: 1.3rem;
+  }
 }
 
 .masthead {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem; // Increased gap for better spacing
   padding: 1rem 0;
-
+  max-width: 1200px; // Add max-width for better readability
+  margin: 0 auto;
+  
   @include mobile {
     grid-template-columns: 1fr;
     text-align: center;
+    gap: 1rem;
+    padding: 0.75rem 1rem; // Add horizontal padding on mobile
   }
 }
-
 
 .site-avatar {
   width: 60px;
@@ -181,10 +216,25 @@ figure {
   border-radius: 50%;
   overflow: hidden;
   
+  // Enhanced visual treatment
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+  
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  @include mobile {
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -197,6 +247,7 @@ figure {
     flex-direction: column;
     text-align: center;
     margin-bottom: 1rem;
+    gap: 0.5rem;
   }
 }
 
@@ -205,20 +256,48 @@ figure {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-color);
+  line-height: 1.2;
+  
+  // Better link treatment if it's a link
+  &:is(a) {
+    text-decoration: none;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: var(--primary-color);
+    }
+    
+    // Ensure focus visibility for accessibility
+    &:focus-visible {
+      outline: 2px solid var(--primary-color);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+  }
+  
+  @include mobile {
+    font-size: 1.3rem;
+  }
 }
 
 .site-description {
   margin: 0;
   color: var(--text-light);
   font-size: 1rem;
+  line-height: 1.4;
+  
+  @include mobile {
+    font-size: 0.9rem;
+  }
 }
 
 .nav-primary {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem; // Increased gap for better touch targets
+  align-items: center;
   
   @include mobile {
-    gap: 1rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -227,19 +306,137 @@ figure {
     font-weight: 500;
     color: var(--text-color);
     text-decoration: none;
+    padding: 0.5rem 0.75rem; // Add padding for better touch targets
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    position: relative;
     
+    // Enhanced hover state
     &:hover {
       color: var(--primary-color);
-      text-decoration: none;
+      background-color: rgba(var(--primary-color-rgb), 0.08);
+      transform: translateY(-1px);
     }
     
+    // Active state with better visual feedback
     &.active {
       color: var(--primary-color);
       font-weight: 600;
+      background-color: rgba(var(--primary-color-rgb), 0.1);
+      
+      // Add active indicator
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 2px;
+        background: var(--primary-color);
+        border-radius: 1px;
+      }
+    }
+    
+    // Enhanced focus visibility for accessibility
+    &:focus-visible {
+      outline: 2px solid var(--primary-color);
+      outline-offset: 2px;
+      background-color: rgba(var(--primary-color-rgb), 0.1);
+    }
+    
+    @include mobile {
+      padding: 0.4rem 0.6rem;
+      font-size: 0.95rem;
     }
   }
 }
 
+// Add mobile menu toggle if needed
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  &:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+  }
+  
+  @include mobile {
+    display: block;
+  }
+}
+
+// Improved mobile navigation (if using hamburger menu)
+@include mobile {
+  .nav-primary.mobile-hidden {  
+    display: none;
+  }
+  
+  .nav-primary.mobile-visible {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+    
+    a {
+      width: 100%;
+      text-align: center;
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+    }
+  }
+}
+
+// High contrast mode support
+@media (prefers-contrast: high) {
+  .wrapper-masthead {
+    background: white;
+    border-bottom: 2px solid black;
+    
+    .nav-primary a {
+      border: 1px solid transparent;
+      
+      &:hover, &:focus-visible {
+        border-color: currentColor;
+      }
+    }
+  }
+}
+
+// Reduced motion support
+@media (prefers-reduced-motion: reduce) {
+  .wrapper-masthead,
+  .site-avatar,
+  .nav-primary a {
+    transition: none;
+  }
+  
+  .site-avatar:hover {
+    transform: none;
+  }
+  
+  .nav-primary a:hover {
+    transform: none;
+  }
+}
 // BUTTONS
 .button {
   display: inline-flex;
