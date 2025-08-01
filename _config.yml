@@ -111,6 +111,15 @@ collections:
     - automation
     - writing_software
     - scheduling_apps
+sass:
+  load_paths:
+    - _sass
+
+# Enable custom styles
+minima:
+  include_css:
+    - /assets/css/custom.css
+
 
 # Version info
 version: v1.0.0
