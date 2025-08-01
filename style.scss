@@ -153,69 +153,116 @@ figure {
 /*********************/
 
 // HEADER
+// MODERN HEADER
 .wrapper-masthead {
-  background: white;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  
+  // Scroll effect - add this class with JavaScript
+  &.scrolled {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.12);
+  }
 }
 
 .masthead {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem 0;
-
+  gap: 1.5rem;
+  padding: 0.75rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
   @include mobile {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
     text-align: center;
   }
 }
 
-
 .site-avatar {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  overflow: hidden;
+  width: 90px;
+  height: 94px;
+  position: relative;
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
   
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; // Better for non-square logos
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
+    transition: filter 0.3s ease;
+  }
+  
+  @include mobile {
+    width: 80px;
+    height: 84px; // Maintain aspect ratio on mobile
+    margin: 0 auto;
   }
 }
 
 .site-info {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
+  min-width: 0; // Prevents flex item from overflowing
   
   @include mobile {
     flex-direction: column;
+    gap: 0.5rem;
     text-align: center;
     margin-bottom: 1rem;
   }
 }
 
 .site-name {
-  margin: 0;
-  font-size: 1.5rem;
   font-weight: 700;
-  color: var(--text-color);
+  font-size: 1.5rem;
+  color: #2c3e50;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  transition: color 0.3s ease;
+  
+  &:hover {
+    color: #3498db;
+  }
+  
+  @include mobile {
+    font-size: 1.25rem;
+  }
 }
 
 .site-description {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  font-weight: 400;
   margin: 0;
-  color: var(--text-light);
-  font-size: 1rem;
+  
+  @include mobile {
+    font-size: 0.85rem;
+  }
 }
 
-.nav-primary {
+// Navigation styles (if you have nav in header)
+.nav {
   display: flex;
-  gap: 1.5rem;
+  align-items: center;
+  gap: 2rem;
   
   @include mobile {
     gap: 1rem;
@@ -224,18 +271,94 @@ figure {
   }
   
   a {
-    font-weight: 500;
-    color: var(--text-color);
+    color: #2c3e50;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    position: relative;
     
     &:hover {
-      color: var(--primary-color);
-      text-decoration: none;
+      background: rgba(52, 152, 219, 0.1);
+      color: #3498db;
+      transform: translateY(-1px);
     }
     
     &.active {
-      color: var(--primary-color);
-      font-weight: 600;
+      background: #3498db;
+      color: white;
+      box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+    }
+    
+    @include mobile {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+// Mobile menu toggle (if needed)
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  
+  &:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  @include mobile {
+    display: block;
+  }
+}
+
+// Performance optimization
+.wrapper-masthead {
+  contain: layout style;
+  will-change: transform;
+}
+
+// Dark mode support (optional)
+@media (prefers-color-scheme: dark) {
+  .wrapper-masthead {
+    background: rgba(26, 32, 46, 0.95);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .site-name {
+    color: #ecf0f1;
+    
+    &:hover {
+      color: #3498db;
+    }
+  }
+  
+  .site-description {
+    color: #bdc3c7;
+  }
+  
+  .nav a {
+    color: #ecf0f1;
+    
+    &:hover {
+      background: rgba(52, 152, 219, 0.2);
+      color: #3498db;
+    }
+  }
+  
+  .mobile-menu-toggle {
+    color: #ecf0f1;
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
     }
   }
 }
