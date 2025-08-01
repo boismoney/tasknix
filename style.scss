@@ -645,6 +645,10 @@ th {
     margin: 2rem 0;
     border-collapse: collapse;
     font-size: 0.95rem;
+    min-width: 600px; /* Ensures horizontal scroll is needed on narrow screens */
+    display: block;
+   overflow-x: auto;
+   white-space: nowrap;
     
     th, td {
       padding: 1rem;
