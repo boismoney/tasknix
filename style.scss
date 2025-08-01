@@ -488,6 +488,272 @@ th {
   }
 }
 
+// Add these styles to your existing style.scss file
+
+// =============================================
+// REVIEW CONTENT SPECIFIC STYLES
+// =============================================
+
+.post {
+  background: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+  padding: 2.5rem;
+  margin-bottom: 3rem;
+  
+  @include mobile {
+    padding: 1.5rem;
+  }
+}
+
+.entry {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-color);
+  
+  h1, h2, h3, h4 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2rem auto;
+    display: block;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    
+    @include mobile {
+      margin: 1.5rem auto;
+    }
+  }
+  
+  // Key Takeaways box
+  h3:first-of-type {
+    background: rgba(67, 97, 238, 0.05);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+    margin: 2rem 0;
+    
+    strong {
+      color: var(--primary-color);
+    }
+  }
+  
+  // Pros/Cons sections
+  h2 + ul {
+    background: var(--card-bg);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    
+    li {
+      margin-bottom: 0.75rem;
+      position: relative;
+      padding-left: 1.5rem;
+      
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.75rem;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--primary-color);
+      }
+    }
+  }
+  
+  // Pros list
+  h2 + ul:nth-of-type(1) {
+    border-left: 4px solid var(--success-color);
+    
+    li::before {
+      background: var(--success-color);
+    }
+  }
+  
+  // Cons list
+  h2 + ul:nth-of-type(2) {
+    border-left: 4px solid var(--danger-color);
+    
+    li::before {
+      background: var(--danger-color);
+    }
+  }
+  
+  // Tables
+  table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    
+    th, td {
+      padding: 1rem;
+      text-align: left;
+      border: 1px solid var(--border-color);
+    }
+    
+    th {
+      background-color: rgba(67, 97, 238, 0.1);
+      font-weight: 600;
+      color: var(--secondary-color);
+    }
+    
+    tr:nth-child(even) {
+      background-color: rgba(0,0,0,0.02);
+    }
+    
+    .winner {
+      background-color: rgba(76, 201, 240, 0.1);
+      position: relative;
+      
+      &::after {
+        content: "★";
+        color: var(--warning-color);
+        position: absolute;
+        right: 0.5rem;
+      }
+    }
+  }
+  
+  // Blockquotes
+  blockquote {
+    border-left: 4px solid var(--accent-color);
+    background: rgba(72, 149, 239, 0.05);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    
+    p {
+      margin: 0;
+    }
+  }
+  
+  // Rating stars
+  .rating {
+    color: var(--warning-color);
+    letter-spacing: 2px;
+  }
+  
+  // Highlight important text
+  strong {
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+  
+  // Section dividers
+  hr {
+    border: 0;
+    height: 1px;
+    background: var(--border-color);
+    margin: 3rem 0;
+  }
+  
+  // Date at bottom of post
+  .date {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    display: block;
+  }
+}
+
+// Disqus comments section
+.comments {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+// =============================================
+// MOBILE RESPONSIVENESS
+// =============================================
+@include mobile {
+  .entry {
+    font-size: 1rem;
+    
+    h1 {
+      font-size: 1.8rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+    
+    h3 {
+      font-size: 1.3rem;
+    }
+    
+    table {
+      font-size: 0.85rem;
+      
+      th, td {
+        padding: 0.75rem 0.5rem;
+      }
+    }
+  }
+}
+
+// =============================================
+// AFFILIATE SPECIFIC ELEMENTS
+// =============================================
+.affiliate-notice {
+  background: rgba(244, 190, 65, 0.1);
+  border-left: 4px solid #f4be41;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.9rem;
+  
+  strong {
+    color: #f4be41;
+  }
+}
+
+.cta-box {
+  background: linear-gradient(135deg, rgba(67, 97, 238, 0.1) 0%, rgba(72, 149, 239, 0.1) 100%);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  margin: 3rem 0;
+  border: 1px solid var(--border-color);
+  
+  h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+  }
+  
+  .button {
+    margin-top: 1rem;
+  }
+}
+
 // UTILITY CLASSES
 .text-center { text-align: center; }
 .text-right { text-align: right; }
