@@ -1027,6 +1027,28 @@ th {
   }
 }
 
+// ===============================
+// REVIEW IMAGE CLASS (ALWAYS RESPONSIVE)
+// ===============================
+.review-img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform var(--transition), box-shadow var(--transition);
+  will-change: transform, box-shadow;
+
+  @media (max-width: 768px) {
+    margin: 1.2rem auto;
+    border-radius: calc(var(--radius) * 0.75);
+    max-width: calc(100vw - 30px);
+    height: auto;
+  }
+}
+
 // =============================================
 // AFFILIATE SPECIFIC ELEMENTS
 // =============================================

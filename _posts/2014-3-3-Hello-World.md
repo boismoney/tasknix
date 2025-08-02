@@ -137,6 +137,6 @@ GHL delivers exceptional value for agencies and full-stack marketers despite its
 
 ---
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/config.png){: .review-img loading="lazy" alt="_config.yml" }
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
