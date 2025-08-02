@@ -119,12 +119,25 @@ img {
   width: 100%;
   margin-inline: auto;
   margin-block: 2rem;
-  img { width: 100%; height: auto; }
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
 }
 
 figure {
   margin-block: 2rem;
-  img { display: block; }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
   figcaption {
     text-align: center;
     font-size: 0.9rem;
@@ -1050,18 +1063,6 @@ th {
     max-width: 800px;
   }
 }
-
-// Utility: Rounded corners, subtle transitions
-.card,
-.entry,
-.review-card {
-  border-radius: 12px;
-  transition: box-shadow 0.3s ease;
-}
-
-  .entry img {
-    max-width: 800px;
-  }
 
 // Utility: Rounded corners, subtle transitions
 .card,
