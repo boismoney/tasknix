@@ -6,7 +6,7 @@ rating: 3.5
 price_range: "Free - $3,600+"
 categories: [crm, marketing-automation]
 tags: [hubspot, crm, marketing, sales, customer-service, all-in-one]
-image: /assets/images/hubspot-review.png
+image: /assets/images/hubspot-review.jpg
 excerpt: "A comprehensive review of HubSpot based on extensive testing, exploring its capabilities for businesses of all sizes - from free CRM to enterprise solutions."
 ---
 
