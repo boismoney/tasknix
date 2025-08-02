@@ -6,7 +6,7 @@ rating: 3.7
 price_range: "PREMIUM"
 categories: ["project-management", "team-collaboration"]
 tags: ["basecamp", "project-management", "team-collaboration", "review", "2025", "simple-pm"]
-image: /assets/images/basecamp-review-2025.png
+featured_image: https://ik.imagekit.io/vceps9tk4/mdimg_1754170702512_9up7pgqf1_basecamp-review-2025_NMfnrCIOd.png
 excerpt: "An in-depth Basecamp review based on 5 months of simple project management testing, covering ease of use, team features, and real-world performance."
 seo_title: "Basecamp Review 2025 - Pros, Cons & Simple Project Management Analysis"
 meta_description: "Comprehensive Basecamp review with testing results, simplicity analysis, and comparison with Asana and Trello. Updated for 2025."

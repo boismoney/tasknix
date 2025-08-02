@@ -6,7 +6,7 @@ rating: 4.2
 price_range: "PREMIUM"
 categories: ["email-marketing", "automation"]
 tags: ["activecampaign", "email-marketing", "automation", "review", "2025", "small-business"]
-image: /assets/images/activecampaign-review-2025.png
+image: https://ik.imagekit.io/vceps9tk4/mdimg_1754170046603_dwf69gs5v_activecampaign-review-2025_hoBXaKfTT.png
 excerpt: "An in-depth ActiveCampaign review based on 30 days of hands-on testing, covering automation features, pricing, and real-world performance for small businesses."
 seo_title: "ActiveCampaign Review 2025 - Pros, Cons & Honest Analysis"
 meta_description: "Comprehensive ActiveCampaign review with testing results, pricing analysis, and comparison with Mailchimp. Updated for 2025."

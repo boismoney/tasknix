@@ -6,7 +6,7 @@ rating: 3.6
 price_range: "FREEMIUM"
 categories: ["team-communication", "collaboration"]
 tags: ["chanty", "team-communication", "collaboration", "review", "2025", "chat"]
-image: /assets/images/chanty-review-2025.png
+image: https://ik.imagekit.io/vceps9tk4/mdimg_1754170710015_x81iggtlf_chanty-review-2025_5Wm33luCF.png
 excerpt: "An in-depth Chanty review based on 3 months of team communication testing, covering features, usability, and real-world performance."
 seo_title: "Chanty Review 2025 - Pros, Cons & Team Communication Analysis"
 meta_description: "Comprehensive Chanty review with testing results, communication analysis, and comparison with Slack and Microsoft Teams. Updated for 2025."

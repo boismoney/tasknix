@@ -6,7 +6,7 @@ rating: 3.9
 price_range: "FREEMIUM"
 categories: ["project-management", "productivity", "all-in-one"]
 tags: ["clickup", "project-management", "productivity", "review", "2025", "all-in-one-workspace"]
-image: /assets/images/clickup-review-2025.png
+featured_image: https://ik.imagekit.io/vceps9tk4/mdimg_1754170712226_dn8rlhtdc_clickup-review-2025_YThpt6KKl.png
 excerpt: "An in-depth ClickUp review based on 6 months of all-in-one workspace testing, covering features, performance, and real-world team productivity."
 seo_title: "ClickUp Review 2025 - Pros, Cons & All-in-One Workspace Analysis"
 meta_description: "Comprehensive ClickUp review with testing results, feature analysis, and comparison with Notion and Monday.com. Updated for 2025."

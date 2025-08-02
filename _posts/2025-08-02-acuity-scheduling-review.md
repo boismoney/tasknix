@@ -6,7 +6,7 @@ rating: 4.1
 price_range: "PREMIUM"
 categories: ["scheduling", "appointment-booking", "business-automation"]
 tags: ["acuity-scheduling", "scheduling", "appointment-booking", "automation", "review", "2025"]
-image: /assets/images/acuity-scheduling-review-2025.png
+featured_image: https://ik.imagekit.io/vceps9tk4/mdimg_1754170048984_h63c0jmt0_acuity-scheduling-review-2025_nWiIJzb2V.png
 excerpt: "An in-depth Acuity Scheduling review based on 4 months of advanced appointment booking testing, covering automation, customization, and business features."
 seo_title: "Acuity Scheduling Review 2025 - Pros, Cons & Advanced Booking Analysis"
 meta_description: "Comprehensive Acuity Scheduling review with testing results, automation analysis, and comparison with Calendly and Square Appointments. Updated for 2025."

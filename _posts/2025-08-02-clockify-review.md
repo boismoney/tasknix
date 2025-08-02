@@ -6,7 +6,7 @@ rating: 3.9
 price_range: "FREEMIUM"
 categories: ["time-tracking", "productivity"]
 tags: ["clockify", "time-tracking", "productivity", "review", "2025", "free-tools"]
-image: /assets/images/clockify-review-2025.png
+featured_image: https://ik.imagekit.io/vceps9tk4/mdimg_1754170714667_zh4f3f0oj_clockify-review-2025_GGgRzoclM.png
 excerpt: "An in-depth Clockify review based on 3 months of time tracking testing, covering free features, team capabilities, and real-world performance."
 seo_title: "Clockify Review 2025 - Pros, Cons & Free Time Tracking Analysis"
 meta_description: "Comprehensive Clockify review with testing results, free plan analysis, and comparison with Toggl and Harvest. Updated for 2025."

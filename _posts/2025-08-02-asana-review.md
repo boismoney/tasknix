@@ -6,7 +6,7 @@ rating: 4.1
 price_range: "FREEMIUM"
 categories: ["project-management", "team-collaboration"]
 tags: ["asana", "project-management", "team-collaboration", "review", "2025", "productivity"]
-image: /assets/images/asana-review-2025.png
+featured_image: https://ik.imagekit.io/vceps9tk4/mdimg_1754170699079_2wcw5i5a9_asana-review-2025_aOKBk0PH4.png
 excerpt: "An in-depth Asana review based on 60 days of team testing, covering project management features, pricing, and real-world performance for growing teams."
 seo_title: "Asana Review 2025 - Pros, Cons & Honest Team Analysis"
 meta_description: "Comprehensive Asana review with testing results, pricing analysis, and comparison with Monday.com and Trello. Updated for 2025."

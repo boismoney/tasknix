@@ -6,7 +6,7 @@ rating: 4.0
 price_range: "FREEMIUM"
 categories: ["note-taking", "writing", "productivity"]
 tags: ["bear", "note-taking", "writing", "review", "2025", "markdown", "apple"]
-image: /assets/images/bear-review-2025.png
+featured_image: https://ik.imagekit.io/vceps9tk4/mdimg_1754170705497_2blen6ycf_bear-review-2025_sxqUcQkgg.png
 excerpt: "An in-depth Bear review based on 4 months of note-taking and writing testing, covering design, markdown features, and Apple ecosystem integration."
 seo_title: "Bear Review 2025 - Pros, Cons & Beautiful Note-Taking Analysis"
 meta_description: "Comprehensive Bear review with testing results, markdown analysis, and comparison with Obsidian and Notion. Updated for 2025."

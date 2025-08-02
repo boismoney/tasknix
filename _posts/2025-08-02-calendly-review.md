@@ -6,7 +6,7 @@ rating: 4.1
 price_range: "FREEMIUM"
 categories: ["scheduling", "calendar-management"]
 tags: ["calendly", "scheduling", "calendar-management", "review", "2025", "appointment-booking"]
-image: /assets/images/calendly-review-2025.png
+featured_image: https://ik.imagekit.io/vceps9tk4/mdimg_1754170707597_56lq1whju_calendly-review-2025_s12ZnYZLa.png
 excerpt: "An in-depth Calendly review based on 5 months of scheduling testing, covering booking features, integrations, and real-world performance for appointment management."
 seo_title: "Calendly Review 2025 - Pros, Cons & Scheduling Analysis"
 meta_description: "Comprehensive Calendly review with testing results, integration analysis, and comparison with Acuity and YouCanBook.me. Updated for 2025."
