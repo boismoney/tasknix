@@ -35,7 +35,6 @@ HubSpot offers an exceptional free CRM with powerful features, but costs escalat
 - Limited customization on lower plans
 - Aggressive upselling tactics reported by users
 
-![Minimal pros and cons icons](/assets/images/hubspot-pros-cons.jpg){: .review-img loading="lazy" alt="Minimal pros and cons icons" }
 
 ## Research Context
 

@@ -1,29 +1,29 @@
-/* Responsive tables: allow horizontal scroll on small screens */
-table {
-  display: block;
-  width: 100%;
-  max-width: 700px; /* Add a max width for visual consistency */
-  margin-left: auto;
-  margin-right: auto;
+/* This file can be used for additional custom styles that don't conflict with main styles */
+
+/* Additional responsive utilities */
+.responsive-wrapper {
+  max-width: 100%;
   overflow-x: auto;
-  white-space: nowrap;
-  border-collapse: collapse;
-  margin: 20px 0;
-  font-size: 14px;
-  box-sizing: border-box;
-  /* Remove min-width to prevent breaking layout */
+  -webkit-overflow-scrolling: touch;
 }
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+/* Prevent any content from causing horizontal scroll */
+* {
+  max-width: 100%;
   box-sizing: border-box;
 }
 
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+/* Mobile-specific image fixes */
+@media screen and (max-width: 600px) {
+  img {
+    max-width: calc(100vw - 30px) !important;
+  }
+  
+  .hero-image {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
 }
 
 /* Optional: Responsive wrapper for tables */
