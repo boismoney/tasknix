@@ -5,13 +5,19 @@ description: Unbiased reviews and comparisons of the best productivity software,
 permalink: /
 ---
 
-![Optimize Your Workflow with TaskNix](/images/hero-productivity-tools.png){: .hero-image loading="lazy" alt="Productivity tools illustration" }
+![Optimize Your Workflow with TaskNix](/images/hero-productivity-tools.png){: .hero-image loading="lazy" alt="Illustration of productivity tools and workflow optimization" }
 
 # Optimize Your Workflow with the Right Tools
 
 Welcome to **TaskNix**—your trusted source for expert, unbiased reviews and data-driven comparisons of productivity tools. Whether you're a freelancer, team leader, or business owner, our mission is to help you discover the best software to streamline your workflow and boost your results.
 
 **TaskNix provides in-depth reviews and data-driven comparisons** of productivity tools to help teams and individuals work smarter. We've analyzed {{ site.posts | size }}+ tools across 8 categories to save you hours of research.
+
+---
+
+## How TaskNix Works
+
+We research, test, and compare the latest productivity and project management tools so you don’t have to. Our reviews are based on real-world use, hands-on testing, and feedback from actual users.
 
 ---
 
@@ -39,6 +45,12 @@ Welcome to **TaskNix**—your trusted source for expert, unbiased reviews and da
     <a href="/automation" class="button secondary" role="button" tabindex="0">Explore Automation Tools</a>
   </div>
 </div>
+
+---
+
+## Visual Guide: How to Choose the Right Tool
+
+![Productivity Tool Selection Flowchart](/images/tool-selection-flowchart.png){: .hero-image loading="lazy" alt="Flowchart for choosing the right productivity tool" }
 
 ---
 
@@ -89,7 +101,10 @@ Want the latest reviews and tool comparisons in your inbox? [Subscribe to our ne
 
 ---
 
-Thank you for visiting TaskNix. We’re here to help you find your next favorite productivity tool!
+## Ready to Find Your Next Productivity Tool?
+
+Thank you for visiting TaskNix. We’re here to help you find your next favorite productivity tool!  
+**Start exploring our [latest reviews](/reviews) or [subscribe for updates](/newsletter).**
 
 <style>
 .category-grid {
