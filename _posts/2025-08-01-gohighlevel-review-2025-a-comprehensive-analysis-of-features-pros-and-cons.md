@@ -215,8 +215,6 @@ GoHighLevel positions itself as an affordable all-in-one solution, but **hidden 
 
 ## **📊 Official Pricing Plans (2025 Update)**  
 
-<div style="overflow-x:auto;">
-  
 | Plan           | Starter ($97/mo) | Agency ($297/mo) | Enterprise (Custom) |
 |----------------|------------------|------------------|---------------------|
 | **Contacts**   | Unlimited        | Unlimited        | Unlimited           |
@@ -225,8 +223,6 @@ GoHighLevel positions itself as an affordable all-in-one solution, but **hidden 
 | **Sub-Accounts**| ❌ None          | ✅ Unlimited     | ✅ Unlimited        |
 | **White-Label**| ❌ No            | ✅ Yes           | ✅ Yes              |
 | **Support**    | Standard         | Priority         | Dedicated           |
-
-</div>
 
 ### **Key Notes:**  
 - **No per-contact fees** (unlike HubSpot or Keap).  
@@ -265,8 +261,6 @@ GoHighLevel positions itself as an affordable all-in-one solution, but **hidden 
 
 ## **📉 How It Compares to Competitors**  
 
-<div style="overflow-x:auto;">
-  
 | Tool          | Starting Price | Best For                     | Hidden Costs?          |
 |---------------|----------------|------------------------------|------------------------|
 | **GoHighLevel**| $97/mo         | All-in-one automation        | Email overages, SMS    |
@@ -274,10 +268,7 @@ GoHighLevel positions itself as an affordable all-in-one solution, but **hidden 
 | **HubSpot**   | Free (limited) | Enterprise CRM               | Per-contact fees       |
 | **Kajabi**    | $119/mo        | Courses & memberships        | No SMS/CRM             |
 
-</div>
-
 ---
-
 ## **⚠️ Common Pain Points & Workarounds**  
 
 ### **1. "Automation Builder Crashes With Complex Workflows"**  
@@ -300,16 +291,12 @@ GoHighLevel positions itself as an affordable all-in-one solution, but **hidden 
 
 ## **📊 User Satisfaction by Industry (2025)**  
 
-<div style="overflow-x:auto;">
-  
 | Industry       | Satisfaction (5★) | Top Complaint           |
 |----------------|-------------------|-------------------------|
 | Marketing Agencies | 4.8              | Learning curve          |
 | Local Services | 4.9               | SMS costs               |
 | E-Commerce     | 3.7               | Weak Shopify sync       |
 | Coaches        | 4.2               | No native video hosting |  
-
-</div>
 
 ---
 
@@ -515,8 +502,6 @@ After extensively testing GoHighLevel and comparing it to competitors, here’s 
 
 ## **📊 Final Scorecard (5★ Scale)**  
 
-<div style="overflow-x:auto;">
-  
 | Category          | Rating | Notes                          |
 |-------------------|--------|--------------------------------|
 | **Features**      | ★★★★☆  | Lacks e-commerce depth         |
@@ -524,8 +509,6 @@ After extensively testing GoHighLevel and comparing it to competitors, here’s 
 | **Ease of Use**   | ★★☆☆☆  | Steep learning curve           |
 | **Support**       | ★★★★☆  | Fast but scripted responses    |
 | **AI Capabilities**| ★★★★☆ | Ahead of most competitors      |
-
-</div>
 
 ---
 
@@ -552,4 +535,4 @@ After extensively testing GoHighLevel and comparing it to competitors, here’s 
 2. **Join the Facebook Group** (72K members share templates).  
 3. **Budget for SMS/Email Costs** (~$100-300/mo extra).  
 
-**Final Thought:** *"No tool does everything perfectly, but GoHighLevel comes closest for agencies—if you’re willing to learn it."*
+**Final Thought:** *"No tool does everything perfectly, but GoHighLevel comes closest for agencies—if you’re willing to learn it."*  
