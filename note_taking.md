@@ -13,7 +13,7 @@ Here you'll find expert reviews, comparisons, and guides to help you capture ide
 
 ---
 
-![Note Taking and Organization](/images/note-taking-organization.png){: .hero-image loading="lazy" alt="Illustration of note taking and organization" }
+![Note Taking and Organization](/images/note-taking-organization.jpg){: .hero-image loading="lazy" alt="Illustration of note taking and organization" }
 
 ## Why Note Taking Matters
 

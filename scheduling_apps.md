@@ -13,7 +13,7 @@ Here you'll find expert reviews, comparisons, and guides to help you book meetin
 
 ---
 
-![Scheduling and Calendar Management](/images/scheduling-calendar-management.png){: .hero-image loading="lazy" alt="Illustration of scheduling and calendar management" }
+![Scheduling and Calendar Management](/images/scheduling-calendar-management.jpg){: .hero-image loading="lazy" alt="Illustration of scheduling and calendar management" }
 
 ## Why Scheduling Apps Matter
 

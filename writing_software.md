@@ -13,7 +13,7 @@ Here you'll find expert reviews, comparisons, and guides to help you write, edit
 
 ---
 
-![Writing and Content Creation](/images/writing-content-creation.png){: .hero-image loading="lazy" alt="Illustration of writing and content creation" }
+![Writing and Content Creation](/images/writing-content-creation.jpg){: .hero-image loading="lazy" alt="Illustration of writing and content creation" }
 
 ## Why Writing Software Matters
 

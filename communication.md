@@ -13,7 +13,7 @@ Here you'll find expert reviews, comparisons, and guides to help you streamline 
 
 ---
 
-![Team Communication and Collaboration](/images/team-communication-collaboration.png){: .hero-image loading="lazy" alt="Illustration of team communication and collaboration" }
+![Team Communication and Collaboration](/images/team-communication-collaboration.jpg){: .hero-image loading="lazy" alt="Illustration of team communication and collaboration" }
 
 ## Why Communication Tools Matter
 

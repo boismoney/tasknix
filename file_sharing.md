@@ -13,7 +13,7 @@ Here you'll find expert reviews, comparisons, and guides to help you securely sh
 
 ---
 
-![File Sharing and Collaboration](/images/file-sharing-collaboration.png){: .hero-image loading="lazy" alt="Illustration of file sharing and collaboration" }
+![File Sharing and Collaboration](/images/file-sharing-collaboration.jpg){: .hero-image loading="lazy" alt="Illustration of file sharing and collaboration" }
 
 ## Why File Sharing Matters
 

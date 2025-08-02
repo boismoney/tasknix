@@ -5,7 +5,7 @@ description: Unbiased reviews and comparisons of the best productivity software,
 permalink: /
 ---
 
-![Optimize Your Workflow with TaskNix](/images/hero-productivity-tools.png){: .hero-image loading="lazy" alt="Illustration of productivity tools and workflow optimization" }
+![Optimize Your Workflow with TaskNix](/images/hero-productivity-tools.jpg){: .hero-image loading="lazy" alt="Illustration of productivity tools and workflow optimization" }
 
 # Optimize Your Workflow with the Right Tools
 
