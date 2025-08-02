@@ -2,6 +2,7 @@
 layout: post
 title: "GoHighLevel Review 2025: A Comprehensive Analysis of Features, Pros, and Cons"
 date: 2025-08-01 00:00:00
+rating: 5
 featured_image: https://ik.imagekit.io/vceps9tk4/upload_1754076716565_ghl-dashboard_Se8UGqxyK.png
 categories: Automation
 ---
