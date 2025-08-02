@@ -1,15 +1,10 @@
 ---
 layout: default
-title: Latest Productivity Tool Reviews & Comparisons | TaskNix
-description: Newest in-depth reviews of project management software, time tracking tools, and productivity apps with feature comparisons and pricing breakdowns.
+title: "Latest Productivity Tool Reviews & Comparisons | TaskNix"
+description: "Newest in-depth reviews of project management software, time tracking tools, and productivity apps with feature comparisons and pricing breakdowns."
 permalink: /reviews/
 canonical_url: https://tasknix.com/reviews/
 ---
-
-<!-- SEO & Social Meta -->
-<meta property="og:title" content="Latest Productivity Tool Reviews & Comparisons | TaskNix" />
-<meta property="og:description" content="Newest in-depth reviews of project management software, time tracking tools, and productivity apps with feature comparisons and pricing breakdowns." />
-<meta property="og:url" content="https://tasknix.com/reviews/" />
 
 <div class="reviews-header">
   <h1>Latest Tool Reviews</h1>
@@ -46,22 +41,26 @@ canonical_url: https://tasknix.com/reviews/
 <div class="reviews-grid">
   {% for post in site.posts %}
     <article class="review-card" 
-             data-category="{{ post.category | slugify }}" 
+             data-category="{{ post.categories[0] | slugify }}" 
              data-price="{{ post.price_range | slugify }}"
              data-title="{{ post.title | escape }}"
              {% if post.features %}data-features="{{ post.features | join: ',' | escape }}"{% endif %}>
       {% if post.featured_image %}
-        <img src="{{ post.featured_image }}" alt="{{ post.title }} screenshot" class="review-thumb" loading="lazy" />
+        <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }} screenshot" class="review-thumb" loading="lazy" />
       {% endif %}
       <div class="review-card-header">
         <div class="review-rating">
           <span class="rating-stars">{{ post.rating }}/5</span>
           <span class="review-price">{{ post.price }}</span>
         </div>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <p class="review-meta">
-          <span class="review-category">{{ post.category }}</span> • 
-          Last updated: {{ post.last_updated | date: "%b %d, %Y" }}
+          <span class="review-category">
+            {% if post.categories and post.categories.size > 0 %}
+              {{ post.categories[0] }}
+            {% endif %}
+          </span>
+          • Last updated: {{ post.last_updated | date: "%b %d, %Y" }}
         </p>
       </div>
       
@@ -80,8 +79,10 @@ canonical_url: https://tasknix.com/reviews/
       </div>
       
       <div class="review-actions">
-        <a href="{{ post.url }}" class="button primary" role="button" tabindex="0">Read Full Review</a>
+        <a href="{{ post.url | relative_url }}" class="button primary" role="button" tabindex="0">Read Full Review</a>
+        {% if post.vendor_url %}
         <a href="{{ post.vendor_url }}" class="button secondary" rel="nofollow" role="button" tabindex="0">Visit Official Site</a>
+        {% endif %}
       </div>
       
       {% if post.affiliate %}
@@ -290,4 +291,18 @@ function checkPriceMatch(price, filter) {
   if (filter === 'free') return price === 'free';
   if (filter === 'under-10') return price === 'under-10';
   if (filter === '10-25') return price === '10-25' || price === '10-25-user';
-  if (filter === 'over
+  if (filter === 'over-25') return price === 'over-25' || price === '25-and-up';
+  return false;
+}
+
+function resetFilters() {
+  document.getElementById('category-filter').value = 'all';
+  document.getElementById('price-filter').value = 'all';
+  filterReviews();
+}
+
+// Initialize filter on page load
+document.addEventListener('DOMContentLoaded', () => {
+  filterReviews();
+});
+</script>
