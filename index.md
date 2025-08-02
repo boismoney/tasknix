@@ -5,15 +5,15 @@ description: Unbiased reviews and comparisons of the best productivity software,
 permalink: /
 ---
 
-<!-- SEO & Social Meta -->
-<meta property="og:title" content="TaskNix | Expert Productivity Tools Reviews & Comparisons" />
-<meta property="og:description" content="Unbiased reviews and comparisons of the best productivity software, project management tools, and time-saving apps. Find your perfect workflow solution today." />
-<meta property="og:url" content="https://tasknix.com/" />
-<meta name="twitter:card" content="summary_large_image" />
+![Optimize Your Workflow with TaskNix](/images/hero-productivity-tools.jpg){: .hero-image loading="lazy" alt="Productivity tools illustration" }
 
 # Optimize Your Workflow with the Right Tools
 
+Welcome to **TaskNix**—your trusted source for expert, unbiased reviews and data-driven comparisons of productivity tools. Whether you're a freelancer, team leader, or business owner, our mission is to help you discover the best software to streamline your workflow and boost your results.
+
 **TaskNix provides in-depth reviews and data-driven comparisons** of productivity tools to help teams and individuals work smarter. We've analyzed {{ site.posts | size }}+ tools across 8 categories to save you hours of research.
+
+---
 
 ## Featured Tool Categories
 
@@ -22,50 +22,74 @@ permalink: /
     <span class="category-icon" aria-hidden="true">📋</span>
     <h3><a href="/project_management" aria-label="Project Management category">Project Management</a></h3>
     <p>Compare Asana, Trello, ClickUp and 12+ other solutions with our detailed feature matrices.</p>
+    <a href="/project_management" class="button secondary" role="button" tabindex="0">Explore Project Management Tools</a>
   </div>
   
   <div class="category-card">
     <span class="category-icon" aria-hidden="true">⏱️</span>
     <h3><a href="/time_tracking" aria-label="Time Tracking category">Time Tracking</a></h3>
     <p>Discover which tool saves teams an average of 3.2 hours/week (based on our user surveys).</p>
+    <a href="/time_tracking" class="button secondary" role="button" tabindex="0">Explore Time Tracking Tools</a>
   </div>
 
   <div class="category-card">
     <span class="category-icon" aria-hidden="true">🤖</span>
     <h3><a href="/automation" aria-label="Automation Tools category">Automation Tools</a></h3>
     <p>Zapier vs Make vs custom solutions - see which handles 500+ integrations best.</p>
+    <a href="/automation" class="button secondary" role="button" tabindex="0">Explore Automation Tools</a>
   </div>
 </div>
+
+---
 
 ## Latest Expert Reviews
 
 {% for post in site.posts limit:3 %}
 <div class="review-preview">
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <p class="meta">Rating: {{ post.rating }}/5 | Price: {{ post.price_range }} | Updated: {{ post.last_updated }}</p>
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="meta">Rating: {{ post.rating }}/5 | Price: {{ post.price_range }} | Updated: {{ post.last_updated | date: "%b %d, %Y" }}</p>
   <p>{{ post.excerpt | truncate: 160 }}</p>
-  <a href="{{ post.url }}" class="button secondary" role="button" tabindex="0" style="margin-top:10px;">Read Full Review</a>
+  <a href="{{ post.url | relative_url }}" class="button secondary" role="button" tabindex="0" style="margin-top:10px;">Read Full Review</a>
 </div>
 {% endfor %}
 
-[View All Reviews](/reviews){: .button role="button" tabindex="0"}
+[View All Reviews](/reviews){: .button role="button" tabindex="0" }
+
+---
 
 ## Stay Updated
 
 Want the latest reviews and tool comparisons in your inbox? [Subscribe to our newsletter](/newsletter){: .button }
 
+---
+
 ## Why Trust Our Reviews?
 
-- **Data-Driven Analysis**: We test each tool for 30+ hours before reviewing
-- **Real-World Testing**: All evaluations based on actual team implementations
-- **Transparent Criteria**: Our [rating system](/rating-methodology) details exactly how we score
-- **Current Pricing**: Prices verified monthly (last updated {{ site.time | date: "%B %Y" }})
+- **Data-Driven Analysis:** We test each tool for 30+ hours before reviewing
+- **Real-World Testing:** All evaluations based on actual team implementations
+- **Transparent Criteria:** Our [rating system](/rating-methodology) details exactly how we score
+- **Current Pricing:** Prices verified monthly (last updated {{ site.time | date: "%B %Y" }})
+
+---
 
 <div class="affiliate-disclosure" id="affiliate-disclosure">
   <button onclick="document.getElementById('affiliate-disclosure').style.display='none'" aria-label="Dismiss disclosure" style="float:right;background:none;border:none;font-size:1.2em;cursor:pointer;">✕</button>
   <h3>Transparency Note</h3>
   <p>TaskNix earns commissions through affiliate links (at no cost to you). This supports our research but never influences our ratings - we've turned down numerous sponsorship requests to maintain objectivity. <a href="/ethics-policy">Read our full ethics policy</a>.</p>
 </div>
+
+---
+
+## Explore More
+
+- [About TaskNix](/about)
+- [Our Ethics Policy](/ethics-policy)
+- [Contact Us](/contact)
+- [All Categories](/categories)
+
+---
+
+Thank you for visiting TaskNix. We’re here to help you find your next favorite productivity tool!
 
 <style>
 .category-grid {
@@ -114,6 +138,11 @@ Want the latest reviews and tool comparisons in your inbox? [Subscribe to our ne
   position: absolute;
   top: 10px;
   right: 10px;
+}
+.hero-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
 }
 @media (max-width: 600px) {
   .category-grid {

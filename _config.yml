@@ -4,30 +4,30 @@ description: Expert reviews of productivity tools, software, and services
 avatar: https://tasknix.com/images/tasknix-logo.png  # Update with your actual logo URL
 
 # Site URL configuration
-url: "https://tasknix.com"  # Your production URL
+url: "https://tasknix.com"
 baseurl: ""  # Leave empty unless using project GitHub Pages
 
 # Content settings
 permalink: /:title/
-timezone: America/New_York  # Set your preferred timezone
-future: false  # Don't publish posts with future dates
+timezone: America/New_York
+future: false
 
 # SEO Optimization
 title: TaskNix | Productivity Tools Reviews & Comparisons
 keywords: "productivity tools, software reviews, task management, time tracking"
-twitter_username: tasknix  # Update with your Twitter handle
-github_username: tasknix  # Update with your GitHub org
+twitter_username: tasknix
+github_username: tasknix
 
 # Social/Footer links
 footer-links:
   twitter: tasknix
-  github: tasknix/tasknix.github.io  # Update with your repo
-  linkedin: company/tasknix  # Update with your LinkedIn
+  github: tasknix/tasknix.github.io
+  linkedin: company/tasknix
   rss: /feed.xml
 
 # Analytics and Comments
-google_analytics: UA-XXXXXX-X  # Replace with your GA tracking ID
-disqus: tasknix  # Replace with your Disqus shortname
+google_analytics: UA-XXXXXX-X
+disqus: tasknix
 
 # Technical Configuration
 markdown: kramdown
@@ -37,42 +37,40 @@ kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
 
-# Plugins
+# Plugins (GitHub Pages supported only)
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
-  - jekyll-seo-tag  # For better SEO handling
+  - jekyll-seo-tag
+  - jekyll-paginate
 
 # SEO TAG CONFIG (recommended)
 jekyll-seo-tag:
-  meta_tags: # Control what appears in meta tags
+  meta_tags:
     - name: "twitter:card"
       value: "summary_large_image"
-    - name: "og:image"
-      value: "/assets/your-default-social-image.jpg"
+    - property: "og:image"
+      content: "/assets/your-default-social-image.jpg"
 
 # SITEMAP CONFIG (optional)
 sitemap:
-  lastmod: date # Adds last modified dates
-  priority: 0.7 # Default priority
+  lastmod: date
+  priority: 0.7
   changefreq: weekly
 
 # PAGINATION CONFIG (for review lists)
-pagination:
-  enabled: true
-  per_page: 10
-  permalink: '/reviews/:num/'
-  sort_field: 'date'
-  sort_reverse: true
+paginate: 10
+paginate_path: "/reviews/page:num/"
 
 # FEED CONFIG (RSS/Atom)
 feed:
   path: feed.xml
   limit: 20
 
-# Sass processing
+# Sass processing (consolidated)
 sass:
-  style: :compressed  # Minified for production
+  style: compressed
+  load_paths:
+    - _sass
 
 # Exclude files from build
 exclude:
@@ -95,31 +93,29 @@ defaults:
       comments: true
       affiliate_disclosure: true
       rating_system: true
-      toc: true  # Table of contents
+      toc: true
 
-# Content categories matching your requirements
+# Content categories (standardized for Jekyll)
+categories:
+  - project_management
+  - note_taking
+  - time_tracking
+  - communication
+  - file_sharing
+  - automation
+  - writing_software
+  - scheduling_apps
+
+# Collections (GitHub Pages compatible)
 collections:
   productivity_tools:
     output: true
     permalink: /:collection/:name/
-  categories:
-    - project_management
-    - note_taking
-    - time_tracking
-    - communication
-    - file_sharing
-    - automation
-    - writing_software
-    - scheduling_apps
-sass:
-  load_paths:
-    - _sass
 
-# Enable custom styles
+# Enable custom styles (ensure file exists)
 minima:
   include_css:
     - /assets/css/custom.css
-
 
 # Version info
 version: v1.0.0
