@@ -101,48 +101,91 @@ ol { list-style: decimal; }
 
 img {
   max-width: 100%;
+  width: auto;
   height: auto;
   display: block;
   border-radius: var(--radius);
-  margin-block: 2rem;
+  margin: 1.5rem auto;
   box-shadow: var(--shadow);
   transition: transform var(--transition), box-shadow var(--transition);
   will-change: transform, box-shadow;
-  &:hover {
-    transform: scale(1.015);
-    box-shadow: 0 12px 36px rgba(0,0,0,0.1);
+  
+  @media (max-width: 768px) {
+    margin: 1rem auto;
+    border-radius: calc(var(--radius) * 0.75);
+  }
+
+  // Handle different aspect ratios based on image dimensions
+  &[src*="banner"], 
+  &[src*="cover"] {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+
+  &[src*="portrait"],
+  &[src*="vertical"] {
+    max-height: 600px;
+    width: auto;
+    margin-inline: auto;
+  }
+
+  &[src*="icon"],
+  &[src*="logo"] {
+    width: auto;
+    max-height: 80px;
+    margin: 1rem 0;
+    box-shadow: none;
+  }
+}
+
+.post-content,
+.entry {
+  img {
+    margin: 2rem auto;
+    @media (max-width: 768px) {
+      margin: 1.5rem auto;
+    }
   }
 }
 
 .image-wrapper {
-  max-width: 800px;
-  width: 100%;
+  max-width: min(100%, 800px);
   margin-inline: auto;
   margin-block: 2rem;
+  
+  @media (max-width: 768px) {
+    margin-block: 1.5rem;
+  }
+  
   img {
+    margin: 0;
     width: 100%;
-    height: auto;
-    display: block;
-    max-width: 100%;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
   }
 }
 
 figure {
   margin-block: 2rem;
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
+  
+  @include mobile {
+    margin-block: 1.5rem;
   }
+  
+  img {
+    margin-block: 0;
+  }
+  
   figcaption {
     text-align: center;
     font-size: 0.9rem;
     color: var(--text-light);
-    margin-top: 0.5rem;
+    margin-top: 0.75rem;
+    padding-inline: 1rem;
+    
+    @include mobile {
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+    }
   }
 }
 
@@ -646,37 +689,52 @@ th {
   }
   h2 + ul:nth-of-type(1) {
     border-left: 4px solid var(--success-color);
-    li::before { background: var(--success-color); }
+    
+    li::before {
+      background: var(--success-color);
+    }
   }
+  
+  // Cons list
   h2 + ul:nth-of-type(2) {
     border-left: 4px solid var(--danger-color);
-    li::before { background: var(--danger-color); }
+    
+    li::before {
+      background: var(--danger-color);
+    }
   }
+  
+  // Tables
   table {
     width: 100%;
     margin: 2rem 0;
     border-collapse: collapse;
     font-size: 0.95rem;
-    min-width: 600px;
+    min-width: 600px; /* Ensures horizontal scroll is needed on narrow screens */
     display: block;
-    overflow-x: auto;
-    white-space: nowrap;
+   overflow-x: auto;
+   white-space: nowrap;
+    
     th, td {
       padding: 1rem;
       text-align: left;
       border: 1px solid var(--border-color);
     }
+    
     th {
       background-color: rgba(67, 97, 238, 0.1);
       font-weight: 600;
       color: var(--secondary-color);
     }
+    
     tr:nth-child(even) {
       background-color: rgba(0,0,0,0.02);
     }
+    
     .winner {
       background-color: rgba(76, 201, 240, 0.1);
       position: relative;
+      
       &::after {
         content: "★";
         color: var(--warning-color);
@@ -685,6 +743,8 @@ th {
       }
     }
   }
+  
+  // Blockquotes
   blockquote {
     border-left: 4px solid var(--accent-color);
     background: rgba(72, 149, 239, 0.05);
@@ -692,22 +752,33 @@ th {
     margin: 2rem 0;
     border-radius: 0 8px 8px 0;
     font-style: italic;
-    p { margin: 0; }
+    
+    p {
+      margin: 0;
+    }
   }
+  
+  // Rating stars
   .rating {
     color: var(--warning-color);
     letter-spacing: 2px;
   }
+  
+  // Highlight important text
   strong {
     color: var(--secondary-color);
     font-weight: 600;
   }
+  
+  // Section dividers
   hr {
     border: 0;
     height: 1px;
     background: var(--border-color);
     margin: 3rem 0;
   }
+  
+  // Date at bottom of post
   .date {
     color: var(--text-light);
     font-size: 0.9rem;
