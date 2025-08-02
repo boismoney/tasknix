@@ -57,10 +57,6 @@ sitemap:
   priority: 0.7
   changefreq: weekly
 
-# PAGINATION CONFIG (for review lists)
-paginate: 10
-paginate_path: "/reviews/page:num/"
-
 # FEED CONFIG (RSS/Atom)
 feed:
   path: feed.xml
