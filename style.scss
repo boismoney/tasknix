@@ -53,7 +53,7 @@ body {
 
 .container {
   margin-inline: auto;
-  max-width: 1200px;
+  max-width: 900px;
   padding-inline: 20px;
   width: 100%;
 }
@@ -799,8 +799,7 @@ th {
 // 14. LARGE SCREEN SPACING
 // ===============================
 @media (min-width: 1400px) {
-  .container { max-width: 1000px; }
-  .entry img { max-width: 800px; }
+  .container { max-width: 800px; }
 }
 
 // ===============================
