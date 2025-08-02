@@ -17,7 +17,7 @@ Welcome to **TaskNix**—your trusted source for expert, unbiased reviews and da
 
 ## How TaskNix Works
 
-We research, test, and compare the latest productivity and project management tools so you don’t have to. Our reviews are based on real-world use, hands-on testing, and feedback from actual users.
+We research, test, and compare the latest productivity and project management tools so you don't have to. Our reviews are based on real-world use, hands-on testing, and feedback from actual users.
 
 ---
 
@@ -26,23 +26,23 @@ We research, test, and compare the latest productivity and project management to
 <div class="category-grid">
   <div class="category-card">
     <span class="category-icon" aria-hidden="true">📋</span>
-    <h3><a href="/project_management" aria-label="Project Management category">Project Management</a></h3>
+    <h3><a href="/project-management/" aria-label="Project Management category">Project Management</a></h3>
     <p>Compare Asana, Trello, ClickUp and 12+ other solutions with our detailed feature matrices.</p>
-    <a href="/project_management" class="button secondary" role="button" tabindex="0">Explore Project Management Tools</a>
+    <a href="/project-management/" class="button secondary" role="button" tabindex="0">Explore Project Management Tools</a>
   </div>
   
   <div class="category-card">
     <span class="category-icon" aria-hidden="true">⏱️</span>
-    <h3><a href="/time_tracking" aria-label="Time Tracking category">Time Tracking</a></h3>
+    <h3><a href="/time-tracking/" aria-label="Time Tracking category">Time Tracking</a></h3>
     <p>Discover which tool saves teams an average of 3.2 hours/week (based on our user surveys).</p>
-    <a href="/time_tracking" class="button secondary" role="button" tabindex="0">Explore Time Tracking Tools</a>
+    <a href="/time-tracking/" class="button secondary" role="button" tabindex="0">Explore Time Tracking Tools</a>
   </div>
 
   <div class="category-card">
     <span class="category-icon" aria-hidden="true">🤖</span>
-    <h3><a href="/automation" aria-label="Automation Tools category">Automation Tools</a></h3>
+    <h3><a href="/automation/" aria-label="Automation Tools category">Automation Tools</a></h3>
     <p>Zapier vs Make vs custom solutions - see which handles 500+ integrations best.</p>
-    <a href="/automation" class="button secondary" role="button" tabindex="0">Explore Automation Tools</a>
+    <a href="/automation/" class="button secondary" role="button" tabindex="0">Explore Automation Tools</a>
   </div>
 </div>
 
@@ -65,13 +65,13 @@ We research, test, and compare the latest productivity and project management to
 </div>
 {% endfor %}
 
-[View All Reviews](/reviews){: .button role="button" tabindex="0" }
+[View All Reviews](/reviews/){: .button role="button" tabindex="0" }
 
 ---
 
 ## Stay Updated
 
-Want the latest reviews and tool comparisons in your inbox? [Subscribe to our newsletter](/newsletter){: .button }
+Want the latest reviews and tool comparisons in your inbox? [Subscribe to our newsletter](/newsletter/){: .button }
 
 ---
 
@@ -79,7 +79,7 @@ Want the latest reviews and tool comparisons in your inbox? [Subscribe to our ne
 
 - **Data-Driven Analysis:** We test each tool for 30+ hours before reviewing
 - **Real-World Testing:** All evaluations based on actual team implementations
-- **Transparent Criteria:** Our [rating system](/rating-methodology) details exactly how we score
+- **Transparent Criteria:** Our [rating system](/rating-methodology/) details exactly how we score
 - **Current Pricing:** Prices verified monthly (last updated {{ site.time | date: "%B %Y" }})
 
 ---
@@ -87,24 +87,24 @@ Want the latest reviews and tool comparisons in your inbox? [Subscribe to our ne
 <div class="affiliate-disclosure" id="affiliate-disclosure">
   <button onclick="document.getElementById('affiliate-disclosure').style.display='none'" aria-label="Dismiss disclosure" style="float:right;background:none;border:none;font-size:1.2em;cursor:pointer;">✕</button>
   <h3>Transparency Note</h3>
-  <p>TaskNix earns commissions through affiliate links (at no cost to you). This supports our research but never influences our ratings - we've turned down numerous sponsorship requests to maintain objectivity. <a href="/ethics-policy">Read our full ethics policy</a>.</p>
+  <p>TaskNix earns commissions through affiliate links (at no cost to you). This supports our research but never influences our ratings - we've turned down numerous sponsorship requests to maintain objectivity. <a href="/ethics-policy/">Read our full ethics policy</a>.</p>
 </div>
 
 ---
 
 ## Explore More
 
-- [About TaskNix](/about)
-- [Our Ethics Policy](/ethics-policy)
-- [Contact Us](/contact)
-- [All Categories](/categories)
+- [About TaskNix](/about/)
+- [Our Ethics Policy](/ethics-policy/)
+- [Contact Us](/contact/)
+- [All Categories](/categories/)
 
 ---
 
 ## Ready to Find Your Next Productivity Tool?
 
-Thank you for visiting TaskNix. We’re here to help you find your next favorite productivity tool!  
-**Start exploring our [latest reviews](/reviews) or [subscribe for updates](/newsletter).**
+Thank you for visiting TaskNix. We're here to help you find your next favorite productivity tool!  
+**Start exploring our [latest reviews](/reviews/) or [subscribe for updates](/newsletter/).**
 
 <style>
 .category-grid {

@@ -29,9 +29,9 @@ Time tracking tools help you:
 ## Popular Time Tracking Categories
 
 - **Simple Trackers:** [Toggl](/reviews/toggl-review), [Clockify](/reviews/clockify-review)
-- **Integrated Project Tracking:** [Harvest](/reviews/harvest-review), [Everhour](/reviews/everhour-review)
-- **Automatic Tracking:** [RescueTime](/reviews/rescuetime-review), [Timely](/reviews/timely-review)
-- **Billing & Invoicing:** [FreshBooks](/reviews/freshbooks-review), [QuickBooks Time](/reviews/quickbooks-time-review)
+- **Integrated Project Tracking:** [Harvest](/2025/08/02/harvest-review), [Everhour](/reviews/everhour-review)
+- **Automatic Tracking:** [RescueTime](/reviews/rescuetime-review), [Timely](/2025/08/02/timely-review)
+- **Billing & Invoicing:** [FreshBooks](/2025/08/02/freshbooks-review), [QuickBooks Time](/reviews/quickbooks-time-review)
 
 ---
 

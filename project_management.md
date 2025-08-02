@@ -28,10 +28,10 @@ Project management tools help you:
 
 ## Popular Project Management Categories
 
-- **Task & Kanban Boards:** [Trello](/reviews/trello-review), [ClickUp](/reviews/clickup-review), [Asana](/reviews/asana-review)
-- **Gantt Charts & Timeline Tools:** [TeamGantt](/reviews/teamgantt-review), [Wrike](/reviews/wrike-review)
-- **Agile & Scrum Tools:** [Jira](/reviews/jira-review), [Monday.com](/reviews/monday-review)
-- **Collaboration Suites:** [Notion](/reviews/notion-review), [Basecamp](/reviews/basecamp-review)
+- **Task & Kanban Boards:** [Trello](/reviews/trello-review), [ClickUp](/2025/08/02/clickup-review), [Asana](/2025/08/02/asana-review)
+- **Gantt Charts & Timeline Tools:** [TeamGantt](/2025/08/02/teamgantt-review), [Wrike](/2025/08/02/wrike-review)
+- **Agile & Scrum Tools:** [Jira](/2025/08/02/jira-review), [Monday.com](/reviews/monday-review)
+- **Collaboration Suites:** [Notion](/reviews/notion-review), [Basecamp](/2025/08/02/basecamp-review)
 
 ---
 
