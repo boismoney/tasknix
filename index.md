@@ -5,6 +5,12 @@ description: Unbiased reviews and comparisons of the best productivity software,
 permalink: /
 ---
 
+<!-- SEO & Social Meta -->
+<meta property="og:title" content="TaskNix | Expert Productivity Tools Reviews & Comparisons" />
+<meta property="og:description" content="Unbiased reviews and comparisons of the best productivity software, project management tools, and time-saving apps. Find your perfect workflow solution today." />
+<meta property="og:url" content="https://tasknix.com/" />
+<meta name="twitter:card" content="summary_large_image" />
+
 # Optimize Your Workflow with the Right Tools
 
 **TaskNix provides in-depth reviews and data-driven comparisons** of productivity tools to help teams and individuals work smarter. We've analyzed {{ site.posts | size }}+ tools across 8 categories to save you hours of research.
@@ -13,17 +19,20 @@ permalink: /
 
 <div class="category-grid">
   <div class="category-card">
-    <h3><a href="/project_management">Project Management</a></h3>
+    <span class="category-icon" aria-hidden="true">📋</span>
+    <h3><a href="/project_management" aria-label="Project Management category">Project Management</a></h3>
     <p>Compare Asana, Trello, ClickUp and 12+ other solutions with our detailed feature matrices.</p>
   </div>
   
   <div class="category-card">
-    <h3><a href="/time_tracking">Time Tracking</a></h3>
+    <span class="category-icon" aria-hidden="true">⏱️</span>
+    <h3><a href="/time_tracking" aria-label="Time Tracking category">Time Tracking</a></h3>
     <p>Discover which tool saves teams an average of 3.2 hours/week (based on our user surveys).</p>
   </div>
 
   <div class="category-card">
-    <h3><a href="/automation">Automation Tools</a></h3>
+    <span class="category-icon" aria-hidden="true">🤖</span>
+    <h3><a href="/automation" aria-label="Automation Tools category">Automation Tools</a></h3>
     <p>Zapier vs Make vs custom solutions - see which handles 500+ integrations best.</p>
   </div>
 </div>
@@ -35,10 +44,15 @@ permalink: /
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
   <p class="meta">Rating: {{ post.rating }}/5 | Price: {{ post.price_range }} | Updated: {{ post.last_updated }}</p>
   <p>{{ post.excerpt | truncate: 160 }}</p>
+  <a href="{{ post.url }}" class="button secondary" role="button" tabindex="0" style="margin-top:10px;">Read Full Review</a>
 </div>
 {% endfor %}
 
-[View All Reviews](/reviews){: .button}
+[View All Reviews](/reviews){: .button role="button" tabindex="0"}
+
+## Stay Updated
+
+Want the latest reviews and tool comparisons in your inbox? [Subscribe to our newsletter](/newsletter){: .button }
 
 ## Why Trust Our Reviews?
 
@@ -47,9 +61,10 @@ permalink: /
 - **Transparent Criteria**: Our [rating system](/rating-methodology) details exactly how we score
 - **Current Pricing**: Prices verified monthly (last updated {{ site.time | date: "%B %Y" }})
 
-<div class="affiliate-disclosure">
-<h3>Transparency Note</h3>
-<p>TaskNix earns commissions through affiliate links (at no cost to you). This supports our research but never influences our ratings - we've turned down numerous sponsorship requests to maintain objectivity. <a href="/ethics-policy">Read our full ethics policy</a>.</p>
+<div class="affiliate-disclosure" id="affiliate-disclosure">
+  <button onclick="document.getElementById('affiliate-disclosure').style.display='none'" aria-label="Dismiss disclosure" style="float:right;background:none;border:none;font-size:1.2em;cursor:pointer;">✕</button>
+  <h3>Transparency Note</h3>
+  <p>TaskNix earns commissions through affiliate links (at no cost to you). This supports our research but never influences our ratings - we've turned down numerous sponsorship requests to maintain objectivity. <a href="/ethics-policy">Read our full ethics policy</a>.</p>
 </div>
 
 <style>
@@ -63,6 +78,12 @@ permalink: /
   border: 1px solid #e1e4e8;
   padding: 20px;
   border-radius: 6px;
+  text-align: center;
+}
+.category-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 10px;
 }
 .review-preview {
   margin-bottom: 30px;
@@ -74,11 +95,34 @@ permalink: /
   color: white;
   border-radius: 6px;
   text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button.secondary {
+  background: #fff;
+  color: #0366d6;
+  border: 1px solid #0366d6;
 }
 .affiliate-disclosure {
   background: #f6f8fa;
   padding: 20px;
   border-radius: 6px;
   margin-top: 40px;
+  position: relative;
+}
+.affiliate-disclosure button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+@media (max-width: 600px) {
+  .category-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .button {
+    width: 100%;
+    text-align: center;
+  }
 }
 </style>
