@@ -2,8 +2,7 @@
 # Jekyll front matter - this makes Jekyll process this SCSS file into CSS
 ---
 
-// Import the base theme first (this pulls in Jekyll's minima theme styles)
-@import "{{ site.theme }}";
+
 
 // ===============================
 // TASKNIX CUSTOM VARIABLES
