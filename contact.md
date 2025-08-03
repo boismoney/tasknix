@@ -1,33 +1,59 @@
 ---
-layout: default
-title: "Contact"
+layout: page
+title: Contact Us
+description: Get in touch with TaskNix for personalized productivity tool recommendations and support.
 permalink: /contact/
-date: 2025-08-02
 ---
 
-# Contact
+# Get in Touch
 
-This page was automatically generated for the path: `/contact`
+Have questions about productivity tools? Need personalized recommendations? We're here to help!
 
-Add your content here.
+## Contact Methods
 
-## Content Structure
+- **Email:** hello@tasknix.com
+- **Twitter:** [@tasknix](https://twitter.com/tasknix)
+- **LinkedIn:** [TaskNix](https://linkedin.com/company/tasknix)
 
-You can organize your content using:
+## Contact Form
 
-- Headers (## H2, ### H3, etc.)
-- Lists (like this one)
-- Links and references
-- Code blocks
-- Images and media
+<form action="https://formspree.io/f/your-form-id" method="POST">
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+  
+  <button type="submit" class="button">Send Message</button>
+</form>
 
-## Next Steps
+<style>
+.form-group {
+  margin-bottom: 1rem;
+}
 
-1. Customize this page content
-2. Update the front matter as needed
-3. Add appropriate layout and styling
-4. Include relevant navigation elements
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
 
----
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
 
-*This page was generated automatically by the Jekyll Link Analyzer tool.*
+textarea {
+  height: 150px;
+}
+</style>

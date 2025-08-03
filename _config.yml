@@ -120,3 +120,11 @@ minima:
 
 # Version info
 version: v1.0.0
+
+# Header navigation configuration
+header_pages:
+  - about.md
+  - reviews.html
+  - comparisons.md
+  - categories.md
+  - contact.md
