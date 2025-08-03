@@ -340,19 +340,6 @@ Structure: Academic note organization
   - Study planning
   - Research organization
   - Review systems
-
-### Additional Resources
-- [Note Taking Templates](/templates)
-- [Organization Methods](/methods)
-- [Tool Tutorials](/tutorials)
-- [Integration Guides](/integrations)
-
-### Knowledge Management
-- [Research Methods](/research)
-- [Study Techniques](/study)
-- [Memory Systems](/memory)
-- [Learning Strategies](/learning)
-
 ---
 
 ## Ready to Improve Your Note Taking?
