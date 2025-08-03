@@ -1,5 +1,25 @@
 <header class="site-header">
   <div class="wrapper">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    
+    <nav class="site-nav">
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      
+      <div class="nav-items">
+        <a class="nav-item" href="{{ '/reviews' | relative_url }}">Reviews</a>
+        <a class="nav-item" href="{{ '/categories' | relative_url }}">Categories</a>
+        <a class="nav-item" href="{{ '/comparisons' | relative_url }}">Comparisons</a>
+        <a class="nav-item" href="{{ '/about' | relative_url }}">About</a>
+        <a class="nav-item" href="{{ '/contact' | relative_url }}">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>site-header">
+  <div class="wrapper">
     <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
     
     <nav class="site-nav">
