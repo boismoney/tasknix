@@ -184,11 +184,99 @@ Based on our testing with a 5,000-contact list:
 4. **Use tags extensively** for better organization
 5. **Set up tracking codes** immediately for behavioral data
 
-### Alternatives to Consider
-- **Mailchimp**: If ease of use is priority
-- **ConvertKit**: For content creators and bloggers
-- **Klaviyo**: For Shopify-focused e-commerce
-- **HubSpot**: For comprehensive inbound marketing
+## Prerequisites
+
+Before getting started with ActiveCampaign, ensure you have:
+- A business email domain (not @gmail.com or similar)
+- Clear understanding of email marketing basics
+- Defined marketing automation goals
+- Customer data ready for import
+- Budget for at least 3 months of testing
+
+## Common Use Cases & Examples
+
+### E-commerce Follow-ups
+```yaml
+Trigger: Customer purchases Product A
+Action 1: Send thank you email after 1 day
+Action 2: Send usage tips after 3 days
+Action 3: Request review after 7 days
+Action 4: Offer related products after 14 days
+```
+
+### Lead Nurturing Sequence
+```yaml
+Trigger: New lead signs up
+Action 1: Welcome email (immediate)
+Action 2: Educational content (day 2)
+Action 3: Case study (day 4)
+Action 4: Booking link (day 7)
+```
+
+## Troubleshooting Guide
+
+### Common Issues & Solutions
+
+1. **Email Deliverability Problems**
+   - Check sender reputation
+   - Verify SPF/DKIM records
+   - Review bounce rates
+   - Clean email list regularly
+
+2. **Automation Not Triggering**
+   - Verify trigger conditions
+   - Check contact tags/lists
+   - Confirm workflow is activated
+   - Review contact properties
+
+3. **Integration Issues**
+   - Update API keys
+   - Check webhook URLs
+   - Verify data mapping
+   - Test connection status
+
+## Best Practices
+
+### Email Marketing
+- Segment your lists effectively
+- Test subject lines
+- Optimize send times
+- Monitor engagement metrics
+- Regular list maintenance
+
+### Automation
+- Start with simple workflows
+- Document your processes
+- Test before activating
+- Regular performance reviews
+- Backup automation settings
+
+## Additional Resources
+
+### Official Documentation
+- [ActiveCampaign Knowledge Base](https://help.activecampaign.com/)
+- [Developer API Documentation](https://developers.activecampaign.com/)
+- [Community Forums](https://community.activecampaign.com/)
+
+### Related Tools & Integrations
+- CRM systems
+- E-commerce platforms
+- Landing page builders
+- Social media tools
+- Analytics platforms
+
+### Further Reading
+- Email marketing best practices
+- Marketing automation strategies
+- CRM implementation guides
+- Customer journey mapping
+- Conversion optimization
+
+## Related Reviews
+- [Mailchimp Review](/mailchimp-review)
+- [HubSpot Review](/hubspot-review)
+- [Klaviyo Review](/klaviyo-review)
+- [ConvertKit Review](/convertkit-review)
 
 ---
 
