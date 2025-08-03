@@ -8,7 +8,7 @@ url: "https://tasknix.com"
 markdown: kramdown
 highlighter: rouge
 
-# Collections - Updated to prevent /pages/ in URLs
+# Collections - Simplified
 collections:
   pages:
     output: true
@@ -17,7 +17,7 @@ collections:
     output: true
     permalink: /:title/
 
-# Default layouts - Fixed scope paths
+# Default layouts
 defaults:
   - scope:
       path: "_pages"
@@ -34,13 +34,6 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-  # Add scope for root-level pages
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-      sitemap: true
 
 # Include these files
 include:
@@ -63,8 +56,6 @@ exclude:
   - vendor
   - .sass-cache
   - .jekyll-cache
-  # Exclude root files that should be handled by _pages
-  - "*.md"
 
 # Plugins
 plugins:
@@ -76,23 +67,9 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
-  sourcemap: development
 
 # SEO settings
 author: TaskNix Team
 twitter:
   username: tasknix
   card: summary_large_image
-
-# Keep files
-keep_files:
-  - .git
-  - .svn
-
-# Custom page handling
-page_gen-dirs: true
-page_gen:
-  - data: 'pages'
-    template: 'page'
-    name: 'title'
-    dir: ''

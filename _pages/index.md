@@ -16,7 +16,7 @@ Welcome to **TaskNix**—your trusted source for expert, unbiased reviews and da
 
 ## How TaskNix Works
 
-We research, test, and compare the latest productivity, project management, and collaboration tools so you don’t have to. Our reviews are based on real-world use, hands-on testing, and feedback from actual users.
+We research, test, and compare the latest productivity, project management, and collaboration tools so you don't have to. Our reviews are based on real-world use, hands-on testing, and feedback from actual users.
 
 ---
 
@@ -24,44 +24,44 @@ We research, test, and compare the latest productivity, project management, and 
 
 <div class="category-grid">
   <div class="category-card">
-    <h3><a href="{{ '/pages/project-management' | relative_url }}">Project Management</a></h3>
+    <h3><a href="/project-management">Project Management</a></h3>
     <p>Plan, track, and collaborate on projects with Asana, Trello, ClickUp, and more.</p>
-    <a href="{{ '/pages/project-management' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Project Management Tools</a>
+    <a href="/project-management" class="button secondary" role="button" tabindex="0">Explore Project Management Tools</a>
   </div>
   <div class="category-card">
-    <h3><a href="{{ '/pages/note-taking' | relative_url }}">Note Taking</a></h3>
+    <h3><a href="/note-taking">Note Taking</a></h3>
     <p>Capture ideas and organize knowledge with Notion, Obsidian, Evernote, and others.</p>
-    <a href="{{ '/pages/note-taking' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Note Taking Apps</a>
+    <a href="/note-taking" class="button secondary" role="button" tabindex="0">Explore Note Taking Apps</a>
   </div>
   <div class="category-card">
-    <h3><a href="{{ '/pages/time-tracking' | relative_url }}">Time Tracking</a></h3>
+    <h3><a href="/time-tracking">Time Tracking</a></h3>
     <p>Track productivity and billable hours with Toggl, Harvest, Timely, and more.</p>
-    <a href="{{ '/pages/time-tracking' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Time Tracking Tools</a>
+    <a href="/time-tracking" class="button secondary" role="button" tabindex="0">Explore Time Tracking Tools</a>
   </div>
   <div class="category-card">
-    <h3><a href="{{ '/pages/communication' | relative_url }}">Communication</a></h3>
+    <h3><a href="/communication">Communication</a></h3>
     <p>Streamline team chat, video calls, and async collaboration with Slack, Loom, and more.</p>
-    <a href="{{ '/pages/communication' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Communication Tools</a>
+    <a href="/communication" class="button secondary" role="button" tabindex="0">Explore Communication Tools</a>
   </div>
   <div class="category-card">
-    <h3><a href="{{ '/pages/file-sharing' | relative_url }}">File Sharing</a></h3>
+    <h3><a href="/file-sharing">File Sharing</a></h3>
     <p>Share and collaborate on documents with Google Drive, Dropbox, and Box.</p>
-    <a href="{{ '/pages/file-sharing' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore File Sharing Tools</a>
+    <a href="/file-sharing" class="button secondary" role="button" tabindex="0">Explore File Sharing Tools</a>
   </div>
   <div class="category-card">
-    <h3><a href="{{ '/pages/automation' | relative_url }}">Automation</a></h3>
+    <h3><a href="/automation">Automation</a></h3>
     <p>Automate repetitive tasks and connect your favorite apps with Zapier, Make, and more.</p>
-    <a href="{{ '/pages/automation' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Automation Tools</a>
+    <a href="/automation" class="button secondary" role="button" tabindex="0">Explore Automation Tools</a>
   </div>
   <div class="category-card">
-    <h3><a href="{{ '/pages/writing-software' | relative_url }}">Writing Software</a></h3>
+    <h3><a href="/writing-software">Writing Software</a></h3>
     <p>Write, edit, and publish content with Grammarly, Scrivener, and more.</p>
-    <a href="{{ '/pages/writing-software' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Writing Software</a>
+    <a href="/writing-software" class="button secondary" role="button" tabindex="0">Explore Writing Software</a>
   </div>
   <div class="category-card">
-    <h3><a href="{{ '/pages/scheduling-apps' | relative_url }}">Scheduling Apps</a></h3>
+    <h3><a href="/scheduling-apps">Scheduling Apps</a></h3>
     <p>Book meetings and manage calendars with Calendly, Doodle, and others.</p>
-    <a href="{{ '/pages/scheduling-apps' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Scheduling Apps</a>
+    <a href="/scheduling-apps" class="button secondary" role="button" tabindex="0">Explore Scheduling Apps</a>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ Want the latest reviews and tool comparisons in your inbox? [Subscribe to our ne
 ---
 
 <div class="affiliate-disclosure" id="affiliate-disclosure">
-  <button onclick="document.getElementById('affiliate-disclosure').style.display='none'" aria-label="Dismiss disclosure" style="float:right;background:none;border:none;font-size:1.2em;cursor:pointer;">✕</button>
+  <button onclick="document.getElementById('affiliate-disclosure').style.display='none'" aria-label="Dismiss disclosure">✕</button>
   <h3>Transparency Note</h3>
   <p>TaskNix earns commissions through affiliate links (at no cost to you). This supports our research but never influences our ratings - we've turned down numerous sponsorship requests to maintain objectivity. <a href="/ethics-policy">Read our full ethics policy</a>.</p>
 </div>
@@ -123,71 +123,5 @@ Want the latest reviews and tool comparisons in your inbox? [Subscribe to our ne
 
 ## Ready to Find Your Next Productivity Tool?
 
-Thank you for visiting TaskNix. We’re here to help you find your next favorite productivity tool!  
+Thank you for visiting TaskNix. We're here to help you find your next favorite productivity tool!  
 **Start exploring our [latest reviews](/reviews) or [subscribe for updates](/newsletter).**
-
-<style>
-.category-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-  margin: 30px 0;
-}
-.category-card {
-  border: 1px solid #e1e4e8;
-  padding: 20px;
-  border-radius: 6px;
-  text-align: center;
-  background: #fff;
-}
-.category-icon {
-  font-size: 2rem;
-  display: block;
-  margin-bottom: 10px;
-}
-.review-preview {
-  margin-bottom: 30px;
-}
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #0366d6;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 500;
-  cursor: pointer;
-}
-.button.secondary {
-  background: #fff;
-  color: #0366d6;
-  border: 1px solid #0366d6;
-}
-.affiliate-disclosure {
-  background: #f6f8fa;
-  padding: 20px;
-  border-radius: 6px;
-  margin-top: 40px;
-  position: relative;
-}
-.affiliate-disclosure button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-.hero-image {
-  width: 100%;
-  height: auto;
-  margin-bottom: 40px;
-}
-@media (max-width: 600px) {
-  .category-grid {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-  .button {
-    width: 100%;
-    text-align: center;
-  }
-}
-</style>
