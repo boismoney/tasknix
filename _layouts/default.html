@@ -4,37 +4,64 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- SEO and Meta Tags -->
+    {% seo %}
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Skip to content</a>
+    <a href="#main-content" class="skip-link sr-only sr-only-focusable">Skip to content</a>
     
     <header class="site-header">
-        <nav class="main-nav">
-            <div class="container">
-                <a href="/" class="logo">TaskNix</a>
-                <ul>
-                    <li><a href="/reviews">Reviews</a></li>
-                    <li><a href="/categories">Categories</a></li>
-                    <li><a href="/comparisons">Comparisons</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="wrapper">
+            <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+            
+            <nav class="site-nav">
+                <div class="nav-items">
+                    <a class="nav-item" href="{{ '/reviews/' | relative_url }}">Reviews</a>
+                    <a class="nav-item" href="{{ '/categories/' | relative_url }}">Categories</a>
+                    <a class="nav-item" href="{{ '/comparisons/' | relative_url }}">Comparisons</a>
+                    <a class="nav-item" href="{{ '/about/' | relative_url }}">About</a>
+                    <a class="nav-item" href="{{ '/contact/' | relative_url }}">Contact</a>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <main id="main-content" class="site-main">
-        <div class="container">
+    <main id="main-content" class="page-content">
+        <div class="wrapper">
             {{ content }}
         </div>
     </main>
 
     <footer class="site-footer">
-        <div class="container">
-            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. <a href="/ethics-policy">Ethics Policy</a></p>
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+                </div>
+                <div class="footer-col">
+                    <p>{{ site.description | escape }}</p>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <a href="{{ '/ethics-policy/' | relative_url }}">Ethics Policy</a>
+                <a href="{{ '/rating-methodology/' | relative_url }}">Rating Methodology</a>
+                <a href="{{ '/atom.xml' | relative_url }}">RSS Feed</a>
+            </div>
         </div>
     </footer>
+    
+    <!-- Analytics and tracking scripts would go here -->
 </body>
 </html>

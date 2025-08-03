@@ -1,3 +1,102 @@
+
+
+// ===============================
+// TASKNIX ADDITIONAL COMPONENTS
+// ===============================
+
+// Additional component styles that extend the main theme
+.review-card {
+  border: 1px solid var(--border-color, #eaeaea);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background: var(--card-bg, #fff);
+  transition: all 0.2s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  }
+  
+  .review-card-header {
+    margin-bottom: 15px;
+  }
+  
+  .review-rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .rating-stars {
+    color: #ffb400;
+    font-weight: bold;
+  }
+  
+  .review-price {
+    background: #f5f5f5;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  
+  .review-meta {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  .review-actions {
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+  }
+  
+  .affiliate-notice {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px dashed #ddd;
+    font-size: 0.8em;
+    color: #666;
+  }
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.filter-group {
+  margin-bottom: 1rem;
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color, #ddd);
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .review-card .review-actions {
+    flex-direction: column;
+  }
+}
+
 // Minimal fallback CSS - main styles are in style.scss
 // This file provides fallback styles in case style.scss fails to load
 

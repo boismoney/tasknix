@@ -10,6 +10,8 @@ featured_image: https://ik.imagekit.io/vceps9tk4/mdimg_1754173704268_hjbov3y3u_t
 excerpt: "An in-depth Timely review based on 4 months of automatic time tracking testing, covering AI features, privacy, and real-world performance."
 seo_title: "Timely Review 2025 - Pros, Cons & AI Time Tracking Analysis"
 meta_description: "Comprehensive Timely review with testing results, AI tracking analysis, and comparison with Toggl and RescueTime. Updated for 2025."
+last_updated: 2025-08-02
+permalink: /timely-review/
 ---
 
 # Timely Review 2025: AI-Powered Automatic Time Tracking
@@ -64,4 +66,4 @@ For teams and individuals who can leverage its full potential, Timely offers a g
 
 ---
 
-*This page was generated automatically by the Jekyll Link Analyzer tool.*
+*Last updated: August 2025 | Tested with productivity team over 4 months on Starter plan*

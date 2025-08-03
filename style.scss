@@ -1,9 +1,8 @@
+// This file has been moved to assets/css/style.scss
+// You can delete this file to avoid conflicts
 
-// ===============================
-// 1. IMPORTS & VARIABLES
-// ===============================
-@import "reset";
-@import "variables";
+// Redirect import for backward compatibility
+@import "assets/css/style";
 @import "mixins";
 
 // ===============================
@@ -299,348 +298,7 @@ img {
 }
 
 // ===============================
-// 8. FOOTER
-// ===============================
-.site-footer {
-  background: var(--text-color);
-  color: white;
-  padding: 2rem 0;
-  margin-top: 4rem;
-  text-align: center;
-  
-  a {
-    color: white;
-    
-    &:hover {
-      color: var(--primary-color);
-    }
-  }
-}
-
-// ===============================
-// 9. AFFILIATE DISCLOSURE
-// ===============================
-.affiliate-disclosure {
-  background: #f6f8fa;
-  padding: 1.5rem;
-  border-radius: var(--radius);
-  margin: 2rem 0;
-  position: relative;
-  border-left: 4px solid var(--warning-color);
-  
-  button {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    background: none;
-    border: none;
-    font-size: 1.2em;
-    cursor: pointer;
-    color: #666;
-    padding: 5px;
-    border-radius: 4px;
-    
-    &:hover {
-      background: rgba(0,0,0,0.1);
-    }
-  }
-  
-  h3 {
-    margin-top: 0;
-    color: var(--warning-color);
-  }
-}
-
-// ===============================
-// 10. ACCESSIBILITY & FOCUS
-// ===============================
-.skip-link {
-  position: absolute;
-  top: -40px;
-  left: 6px;
-  background: #000;
-  color: #fff;
-  padding: 8px;
-  text-decoration: none;
-  z-index: 1000;
-  border-radius: 4px;
-  
-  &:focus {
-    top: 6px;
-  }
-}
-
-:focus-visible {
-  outline: 3px solid var(--primary-color);
-  outline-offset: 2px;
-  border-radius: 4px;
-}
-
-// ===============================
-// 11. RESPONSIVE DESIGN
-// ===============================
-@media (max-width: 768px) {
-  .container {
-    padding-inline: 15px;
-  }
-  
-  .main-nav ul {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .category-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .button {
-    width: 100%;
-    text-align: center;
-  }
-}
-
-// ===============================
-// 12. DARK MODE
-// ===============================
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #121212;
-    --card-bg: #1e1e1e;
-    --text-color: #eaeaea;
-    --text-light: #999;
-    --border-color: #2a2a2a;
-    --primary-color: #8ab4f8;
-    --primary-hover: #729cf3;
-  }
-  
-  .affiliate-disclosure {
-    background: #2a2a2a;
-    border-left-color: var(--warning-color);
-  }
-}
-    background: #fff;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    &:hover {
-      background: rgba(67,97,238,0.1);
-      text-decoration: none;
-    }
-  }
-  &-small {
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem;
-  }
-}
-
-// ===============================
-// 8. CARDS, TABLES, PRICING, FOOTER
-// ===============================
-.review-card {
-  background: var(--card-bg);
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-  }
-  &-header {
-    padding: 1.5rem;
-    border-bottom: 1px solid var(--border-color);
-  }
-  &-body {
-    padding: 1.5rem;
-  }
-  &-footer {
-    padding: 1rem 1.5rem;
-    background: rgba(0,0,0,0.02);
-    border-top: 1px solid var(--border-color);
-  }
-  .rating {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--warning-color);
-    font-weight: 600;
-  }
-  .price-badge {
-    background: rgba(72, 149, 239, 0.1);
-    color: var(--accent-color);
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
-    font-size: 0.875rem;
-    font-weight: 600;
-  }
-}
-
-.comparison-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 2rem 0;
-  th, td {
-    padding: 1rem;
-    text-align: left;
-    border: 1px solid var(--border-color);
-  }
-  th {
-    background: rgba(0,0,0,0.03);
-    font-weight: 600;
-  }
-  tr:nth-child(even) {
-    background: rgba(0,0,0,0.02);
-  }
-  .winner {
-    background: rgba(76, 201, 240, 0.1);
-    position: relative;
-    &::after {
-      content: "★";
-      color: var(--warning-color);
-      position: absolute;
-      right: 0.5rem;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-  }
-}
-
-/* Mobile-friendly tables */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-  font-size: 14px;
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
-}
-
-/* Mobile responsiveness */
-@media screen and (max-width: 600px) {
-  table {
-    font-size: 12px;
-  }
-  th, td {
-    padding: 6px 4px;
-  }
-}
-
-.pricing-table {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-  .pricing-tier {
-    background: var(--card-bg);
-    border-radius: 8px;
-    padding: 1.5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    &.featured {
-      border: 2px solid var(--primary-color);
-      position: relative;
-      &::before {
-        content: "Best Value";
-        position: absolute;
-        top: -12px;
-        right: 1.5rem;
-        background: var(--primary-color);
-        color: white;
-        padding: 0.25rem 0.75rem;
-        border-radius: 20px;
-        font-size: 0.75rem;
-        font-weight: 600;
-      }
-    }
-    .price {
-      font-size: 2rem;
-      font-weight: 700;
-      margin: 1rem 0;
-      span {
-        font-size: 1rem;
-        color: var(--text-light);
-        font-weight: 400;
-      }
-    }
-    ul {
-      margin: 1.5rem 0;
-      list-style-type: none;
-      padding: 0;
-      li {
-        padding: 0.5rem 0;
-        position: relative;
-        padding-left: 1.75rem;
-        &::before {
-          content: "✓";
-          color: var(--success-color);
-          position: absolute;
-          left: 0;
-        }
-        &.not-included {
-          opacity: 0.6;
-          &::before {
-            content: "✕";
-            color: var(--text-light);
-          }
-        }
-      }
-    }
-  }
-}
-
-.wrapper-footer {
-  background: var(--text-color);
-  color: white;
-  padding: 3rem 0;
-  margin-top: 3rem;
-}
-
-.footer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  &-col {
-    h3 {
-      color: white;
-      margin-bottom: 1.5rem;
-      font-size: 1.25rem;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      li {
-        margin-bottom: 0.75rem;
-        a {
-          color: rgba(255,255,255,0.7);
-          &:hover {
-            color: white;
-            text-decoration: underline;
-          }
-        }
-      }
-    }
-  }
-  &-bottom {
-    grid-column: 1 / -1;
-    text-align: center;
-    padding-top: 2rem;
-    margin-top: 2rem;
-    border-top: 1px solid rgba(255,255,255,0.1);
-    color: rgba(255,255,255,0.6);
-    font-size: 0.875rem;
-  }
-}
-
-// ===============================
-// 9. POST/ENTRY CONTENT (FIXED)
+// 8. POST/ENTRY CONTENT
 // ===============================
 .post {
   background: var(--card-bg);
@@ -650,11 +308,13 @@ th {
   margin-bottom: 3rem;
   transition: transform 0.2s ease;
   max-width: 100%;
-  overflow: hidden; // Prevent content overflow
+  overflow: hidden;
   
-  &:hover { transform: translateY(-4px); }
+  &:hover { 
+    transform: translateY(-4px); 
+  }
   
-  @include mobile { 
+  @media (max-width: 768px) { 
     padding: 1.5rem;
     margin-bottom: 2rem;
   }
@@ -705,7 +365,6 @@ th {
     }
   }
   
-  // Images within entry content
   img {
     max-width: 100%;
     height: auto;
@@ -714,62 +373,12 @@ th {
     display: block;
     box-shadow: 0 3px 15px rgba(0,0,0,0.1);
     
-    @include mobile { 
+    @media (max-width: 768px) { 
       margin: 1.5rem auto;
       max-width: calc(100vw - 30px);
     }
   }
   
-  // REMOVE DUPLICATE h2 + ul styles and consolidate
-  h2 + ul {
-    background: var(--card-bg);
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    
-    @media (max-width: 768px) {
-      padding: 1rem;
-      margin: 1rem 0;
-    }
-    
-    li {
-      margin-bottom: 0.75rem;
-      position: relative;
-      padding-left: 1.5rem;
-      
-      &::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0.75rem;
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background: var(--primary-color);
-      }
-    }
-    
-    // Pros list styling
-    &:first-of-type {
-      border-left: 4px solid var(--success-color);
-      
-      li::before {
-        background: var(--success-color);
-      }
-    }
-    
-    // Cons list styling  
-    &:nth-of-type(2) {
-      border-left: 4px solid var(--danger-color);
-      
-      li::before {
-        background: var(--danger-color);
-      }
-    }
-  }
-  
-  // Blockquotes
   blockquote {
     border-left: 4px solid var(--accent-color);
     background: rgba(72, 149, 239, 0.05);
@@ -789,43 +398,434 @@ th {
     }
   }
   
-  // REMOVE DUPLICATE STYLES AND CONSOLIDATE
-}
-
-// ===============================
-// 10. RESPONSIVE DESIGN (ENHANCED)
-// ===============================
-@media (max-width: 900px) {
-  .container { 
-    max-width: 98vw;
-    padding-inline: 1rem;
+  table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    
+    @media (max-width: 768px) {
+      font-size: 0.85rem;
+    }
+    
+    th, td {
+      padding: 1rem;
+      text-align: left;
+      border: 1px solid var(--border-color);
+      
+      @media (max-width: 768px) {
+        padding: 0.5rem 0.25rem;
+        font-size: 0.8rem;
+      }
+    }
+    
+    th {
+      background-color: rgba(67, 97, 238, 0.1);
+      font-weight: 600;
+      color: var(--secondary-color);
+    }
+    
+    tr:nth-child(even) {
+      background-color: rgba(0,0,0,0.02);
+    }
   }
-  .masthead { padding-inline: 1rem; }
-  .footer { grid-template-columns: 1fr; }
-  .pricing-table { grid-template-columns: 1fr; }
 }
 
-@include mobile {
-  .container { 
+// ===============================
+// 9. FOOTER
+// ===============================
+.site-footer {
+  background: var(--text-color);
+  color: white;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  text-align: center;
+  
+  a {
+    color: white;
+    
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+}
+
+// ===============================
+// 10. AFFILIATE DISCLOSURE
+// ===============================
+.affiliate-disclosure {
+  background: #f6f8fa;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  margin: 2rem 0;
+  position: relative;
+  border-left: 4px solid var(--warning-color);
+  
+  button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #666;
+    padding: 5px;
+    border-radius: 4px;
+    
+    &:hover {
+      background: rgba(0,0,0,0.1);
+    }
+  }
+  
+  h3 {
+    margin-top: 0;
+    color: var(--warning-color);
+  }
+}
+
+// ===============================
+// 11. RESPONSIVE DESIGN
+// ===============================
+@media (max-width: 768px) {
+  .container {
     padding-inline: 15px;
-    max-width: 100vw;
   }
   
-  // Ensure no horizontal overflow
-  body {
-    overflow-x: hidden;
+  .main-nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
   }
   
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+// ===============================
+// 12. DARK MODE
+// ===============================
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212;
+    --card-bg: #1e1e1e;
+    --text-color: #eaeaea;
+    --text-light: #999;
+    --border-color: #2a2a2a;
+    --primary-color: #8ab4f8;
+    --primary-hover: #729cf3;
+  }
+  
+  .affiliate-disclosure {
+    background: #2a2a2a;
+    border-left-color: var(--warning-color);
+  }
+}
+
+// ===============================
+// 13. UTILITY CLASSES
+// ===============================
+.text-center { text-align: center !important; }
+.text-right { text-align: right !important; }
+.mt-0 { margin-top: 0 !important; }
+.mb-0 { margin-bottom: 0 !important; }
+.hidden { display: none !important; }
+
+// ===============================
+// 14. SYNTAX HIGHLIGHTING & SVG ICONS
+// ===============================
+@import "highlights";
+@import "svg-icons";
+
+// ===============================
+// 15. LARGE SCREEN SPACING
+// ===============================
+@media (min-width: 1400px) {
+  .container { max-width: 800px; }
+}
+
+// ===============================
+// 16. MODERN CARD/ENTRY/REVIEW-STYLE
+// ===============================
+.card, .entry, .review-card {
+  border-radius: var(--radius);
+  transition: box-shadow var(--transition);
+}
+    
+    li::before {
+      background: var(--danger-color);
+    }
+  
+  // Tables
+  table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
+    
+    @media (max-width: 768px) {
+      font-size: 0.85rem;
+      white-space: normal; // Allow wrapping on mobile
+      display: table; // Reset to table display
+    }
+    
+    th, td {
+      padding: 1rem;
+      text-align: left;
+      border: 1px solid var(--border-color);
+      
+      @media (max-width: 768px) {
+        padding: 0.5rem 0.25rem;
+        font-size: 0.8rem;
+      }
+    }
+    
+    th {
+      background-color: rgba(67, 97, 238, 0.1);
+      font-weight: 600;
+      color: var(--secondary-color);
+    }
+    
+    tr:nth-child(even) {
+      background-color: rgba(0,0,0,0.02);
+    }
+    
+    .winner {
+      background-color: rgba(76, 201, 240, 0.1);
+      position: relative;
+      
+      &::after {
+        content: "★";
+        color: var(--warning-color);
+        position: absolute;
+        right: 0.5rem;
+      }
+    }
+  }
+  
+  // Blockquotes
+  blockquote {
+    border-left: 4px solid var(--accent-color);
+    background: rgba(72, 149, 239, 0.05);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    
+    p {
+      margin: 0;
+    }
+  }
+  
+  // Rating stars
+  .rating {
+    color: var(--warning-color);
+    letter-spacing: 2px;
+  }
+  
+  // Highlight important text
+  strong {
+    color: var(--secondary-color);
+    font-weight: 600;
+  }
+  
+  // Section dividers
+  hr {
+    border: 0;
+    height: 1px;
+    background: var(--border-color);
+    margin: 3rem 0;
+  }
+  
+  // Date at bottom of post
+  .date {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    display: block;
+  }
+}
+
+// Disqus comments section
+.comments {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+// =============================================
+// MOBILE RESPONSIVENESS
+// =============================================
+@include mobile {
   .entry {
     font-size: 1rem;
     
-    h1 { font-size: 1.8rem; }
-    h2 { font-size: 1.5rem; }
-    h3 { font-size: 1.3rem; }
+    h1 {
+      font-size: 1.8rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+    
+    h3 {
+      font-size: 1.3rem;
+    }
+    
+    table {
+      font-size: 0.85rem;
+      
+      th, td {
+        padding: 0.75rem 0.5rem;
+      }
+    }
   }
 }
 
 // ===============================
+// REVIEW IMAGE CLASS (ALWAYS RESPONSIVE)
+// ===============================
+.review-img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform var(--transition), box-shadow var(--transition);
+  will-change: transform, box-shadow;
+
+  @media (max-width: 768px) {
+    margin: 1.2rem auto;
+    border-radius: calc(var(--radius) * 0.75);
+    max-width: calc(100vw - 30px);
+    height: auto;
+  }
+}
+
+// =============================================
+// AFFILIATE SPECIFIC ELEMENTS
+// =============================================
+.affiliate-notice {
+  background: rgba(244, 190, 65, 0.1);
+  border-left: 4px solid #f4be41;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.9rem;
+  
+  strong {
+    color: #f4be41;
+  }
+}
+
+.cta-box {
+  background: linear-gradient(135deg, rgba(67, 97, 238, 0.1) 0%, rgba(72, 149, 239, 0.1) 100%);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  margin: 3rem 0;
+  border: 1px solid var(--border-color);
+  
+  h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+  }
+  
+  .button {
+    margin-top: 1rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212;
+    --card-bg: #1e1e1e;
+    --text-color: #eaeaea;
+    --text-light: #999;
+    --border-color: #2a2a2a;
+    --primary-color: #8ab4f8;
+    --primary-hover: #729cf3;
+    --secondary-color: #c792ea;
+    --accent-color: #82aaff;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--text-color);
+  }
+
+  .post,
+  .review-card,
+  .cta-box,
+  .affiliate-notice,
+  .entry blockquote {
+    background: var(--card-bg);
+    border-color: var(--border-color);
+  }
+
+  .footer {
+    background: #000;
+  }
+
+  .footer a {
+    color: rgba(255, 255, 255, 0.7);
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+// UTILITY CLASSES
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.mt-0 { margin-top: 0; }
+.mb-0 { margin-bottom: 0; }
+.hidden { display: none; }
+
+// RESPONSIVE
+@include mobile {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .pricing-table {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Syntax highlighting
+@import "highlights";
+@import "svg-icons";
+
+// Utility: Spacing for large screens
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  .entry img {
+    max-width: 600px;
+  }
+}
+
+// Utility: Rounded corners, subtle transitions
+.card,
+.entry,
+.review-card {
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease;
+}
 // 11. DARK MODE & HIGH CONTRAST
 // ===============================
 @media (prefers-color-scheme: dark) {
