@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: TaskNix | Expert Productivity Tools Reviews & Comparisons
 description: Unbiased reviews and comparisons of the best productivity software, project management tools, and time-saving apps. Find your perfect workflow solution today.
 permalink: /
