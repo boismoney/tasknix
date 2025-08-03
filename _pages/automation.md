@@ -28,9 +28,9 @@ Automation tools can help you:
 
 ## Popular Automation Categories
 
-- **No-Code Automation Platforms:** [Zapier](/2025-08-02-zapier-review), [Make](/2025-08-02-make-review)
-- **Marketing Automation:** [GoHighLevel](/2025-08-02-gohighlevel-review), [ActiveCampaign](/2025-08-02-activecampaign-review)
-- **Sales & CRM Automation:** [HubSpot](/2025-08-02-hubspot-review), [Pipedrive](/2025-08-02-pipedrive-review)
+- **No-Code Automation Platforms:** [Zapier](/zapier-review), [Make](/make-review)
+- **Marketing Automation:** [GoHighLevel](/gohighlevel-review), [ActiveCampaign](/activecampaign-review)
+- **Sales & CRM Automation:** [HubSpot](/hubspot-review), [Pipedrive](/pipedrive-review)
 - **Custom Scripting:** Python, JavaScript, and more
 
 ---
