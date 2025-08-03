@@ -1,30 +1,16 @@
 ---
 ---
 
+@import "minima";
+
 // ===============================
-// TASKNIX CUSTOM THEME
+// TASKNIX CUSTOM OVERRIDES
 // ===============================
-// Built on top of Jekyll's default styling principles
-// Compatible with GitHub Pages
 
-// 1. Imports & Dependencies
-// =================================
-// Note: Commenting out imports temporarily to fix GitHub Pages deployment
-// @import "mixins";
-// @import "highlights";  
-// @import "svg-icons";
-
-// 2. Root Custom Properties & Mixins
-// =================================
-
-// Manual responsive mixin for GitHub Pages compatibility
-@mixin mobile {
-  @media screen and (max-width: 768px) {
-    @content;
-  }
-}
-
-// Root custom properties
+// Your existing imports
+@import "mixins";
+@import "highlights";  
+@import "svg-icons";
 :root {
   --primary-color: #4361ee;
   --primary-hover: #3a56d4;
