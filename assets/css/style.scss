@@ -265,6 +265,7 @@ img {
         transform: translateY(-10px);
         transition: all 0.3s ease;
         pointer-events: none;
+        z-index: 1001;
         
         &.active {
           opacity: 1;
@@ -690,6 +691,7 @@ img {
     --primary-hover: #729cf3;
     --secondary-color: #c792ea;
     --accent-color: #82aaff;
+    --shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
   }
 
   body {
@@ -718,6 +720,40 @@ img {
   .affiliate-disclosure {
     background: #2a2a2a;
     border-left-color: var(--warning-color);
+  }
+  
+  // Dark mode mobile navigation enhancements
+  .site-nav {
+    .nav-items {
+      @media (max-width: 768px) {
+        background: var(--card-bg);
+        border-top-color: var(--border-color);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      }
+    }
+    
+    .nav-toggle {
+      .hamburger-line {
+        background: var(--text-color);
+      }
+      
+      &:hover .hamburger-line {
+        background: var(--primary-color);
+      }
+      
+      &:focus {
+        outline-color: var(--primary-color);
+      }
+    }
+    
+    .nav-item {
+      color: var(--text-color);
+      
+      &:hover {
+        color: var(--primary-color);
+        background: rgba(138, 180, 248, 0.1);
+      }
+    }
   }
 }
 
