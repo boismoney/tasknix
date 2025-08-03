@@ -215,6 +215,12 @@ img {
       }
     }
     
+    // Override minima theme's automatic navigation
+    .page-link {
+      display: none !important;
+    }
+    
+    // Only show our curated navigation items
     .nav-item {
       color: var(--text-color);
       text-decoration: none;
