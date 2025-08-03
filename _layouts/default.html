@@ -21,21 +21,7 @@
 <body>
     <a href="#main-content" class="skip-link sr-only sr-only-focusable">Skip to content</a>
     
-    <header class="site-header">
-        <div class="wrapper">
-            <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
-            
-            <nav class="site-nav">
-                <div class="nav-items">
-                    <a class="nav-item" href="{{ '/reviews/' | relative_url }}">Reviews</a>
-                    <a class="nav-item" href="{{ '/categories/' | relative_url }}">Categories</a>
-                    <a class="nav-item" href="{{ '/comparisons/' | relative_url }}">Comparisons</a>
-                    <a class="nav-item" href="{{ '/about/' | relative_url }}">About</a>
-                    <a class="nav-item" href="{{ '/contact/' | relative_url }}">Contact</a>
-                </div>
-            </nav>
-        </div>
-    </header>
+    {% include header.html %}
 
     <main id="main-content" class="page-content">
         <div class="wrapper">
