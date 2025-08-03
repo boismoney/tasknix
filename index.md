@@ -17,7 +17,7 @@ Welcome to **TaskNix**—your trusted source for expert, unbiased reviews and da
 
 ## How TaskNix Works
 
-We research, test, and compare the latest productivity, project management, and collaboration tools so you don't have to. Our reviews are based on real-world use, hands-on testing, and feedback from actual users.
+We research, test, and compare the latest productivity, project management, and collaboration tools so you don’t have to. Our reviews are based on real-world use, hands-on testing, and feedback from actual users.
 
 ---
 
@@ -99,7 +99,7 @@ We research, test, and compare the latest productivity, project management, and 
 
 ## Stay Updated
 
-Want the latest reviews and tool comparisons in your inbox? [Subscribe to our newsletter](/about){: .button }
+Want the latest reviews and tool comparisons in your inbox? [Subscribe to our newsletter](/newsletter){: .button }
 
 ---
 
@@ -107,7 +107,7 @@ Want the latest reviews and tool comparisons in your inbox? [Subscribe to our ne
 
 - **Data-Driven Analysis:** We test each tool for 30+ hours before reviewing
 - **Real-World Testing:** All evaluations based on actual team implementations
-- **Transparent Criteria:** Our rating methodology details exactly how we score
+- **Transparent Criteria:** Our [rating methodology](/rating-methodology) details exactly how we score
 - **Current Pricing:** Prices verified monthly (last updated {{ site.time | date: "%B %Y" }})
 
 ---
@@ -115,7 +115,7 @@ Want the latest reviews and tool comparisons in your inbox? [Subscribe to our ne
 <div class="affiliate-disclosure" id="affiliate-disclosure">
   <button onclick="document.getElementById('affiliate-disclosure').style.display='none'" aria-label="Dismiss disclosure" style="float:right;background:none;border:none;font-size:1.2em;cursor:pointer;">✕</button>
   <h3>Transparency Note</h3>
-  <p>TaskNix earns commissions through affiliate links (at no cost to you). This supports our research but never influences our ratings - we've turned down numerous sponsorship requests to maintain objectivity. <a href="/about">Read our full ethics policy</a>.</p>
+  <p>TaskNix earns commissions through affiliate links (at no cost to you). This supports our research but never influences our ratings - we've turned down numerous sponsorship requests to maintain objectivity. <a href="/ethics-policy">Read our full ethics policy</a>.</p>
 </div>
 
 ---
@@ -123,77 +123,14 @@ Want the latest reviews and tool comparisons in your inbox? [Subscribe to our ne
 ## Explore More
 
 - [About TaskNix](/about)
-- [All Categories](/reviews)
+- [Our Ethics Policy](/ethics-policy)
+- [Contact Us](/contact)
+- [All Categories](/categories)
+- [Comparisons](/comparisons)
 
 ---
 
 ## Ready to Find Your Next Productivity Tool?
 
-Thank you for visiting TaskNix. We're here to help you find your next favorite productivity tool!  
-**Start exploring our [latest reviews](/reviews) or [learn more about us](/about).**
-
-<style>
-.category-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-  margin: 30px 0;
-}
-.category-card {
-  border: 1px solid #e1e4e8;
-  padding: 20px;
-  border-radius: 6px;
-  text-align: center;
-  background: #fff;
-}
-.category-icon {
-  font-size: 2rem;
-  display: block;
-  margin-bottom: 10px;
-}
-.review-preview {
-  margin-bottom: 30px;
-}
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #0366d6;
-  color: white;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 500;
-  cursor: pointer;
-}
-.button.secondary {
-  background: #fff;
-  color: #0366d6;
-  border: 1px solid #0366d6;
-}
-.affiliate-disclosure {
-  background: #f6f8fa;
-  padding: 20px;
-  border-radius: 6px;
-  margin-top: 40px;
-  position: relative;
-}
-.affiliate-disclosure button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-.hero-image {
-  width: 100%;
-  height: auto;
-  margin-bottom: 40px;
-}
-@media (max-width: 600px) {
-  .category-grid {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-  .button {
-    width: 100%;
-    text-align: center;
-  }
-}
-</style>
+Thank you for visiting TaskNix. We’re here to help you find your next favorite productivity tool!  
+**Start exploring our [latest reviews](/reviews) or [subscribe for updates](/newsletter).**

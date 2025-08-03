@@ -302,17 +302,7 @@ Tools Integration:
   - Client interaction
   - Meeting management
 
-### Additional Resources
-- [Project Management Templates](/templates)
-- [Methodology Guides](/methodology)
-- [Integration Tutorials](/integrations)
-- [Case Studies](/case-studies)
 
-### Professional Development
-- [Certification Guides](/certifications)
-- [Best Practices Library](/best-practices)
-- [Project Management Webinars](/webinars)
-- [Expert Interviews](/interviews)
 ```yaml
 Structure: Multi-project organization
 1. Portfolio Overview
