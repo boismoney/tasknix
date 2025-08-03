@@ -1,41 +1,30 @@
+---
+---
+
 // ===============================
-// TABLE OF CONTENTS
+// TASKNIX CUSTOM THEME
 // ===============================
+// Built on top of Jekyll's default styling principles
+// Compatible with GitHub Pages
+
 // 1. Imports & Dependencies
-// 2. Root Custom Properties
-// 3. Base Elements & Typography
-// 4. Layout & Grid
-// 5. Navigation & Header
-// 6. Components
-//    - Cards
-//    - Buttons
-//    - Tables
-//    - Forms
-// 7. Content Styles
-//    - Posts
-//    - Entries
-//    - Reviews
-// 8. Footer
-// 9. Special Elements
-//    - Affiliate Elements
-//    - CTAs
-//    - Notices
-// 10. Theme Modes
-//    - Dark Mode
-//    - High Contrast
-//    - Reduced Motion
-// 11. Utilities & Helpers
-// 12. Media Queries
-// 13. Third Party
-
-// 1. Imports
 // =================================
-@import "mixins";
-@import "highlights";
-@import "svg-icons";
+// Note: Commenting out imports temporarily to fix GitHub Pages deployment
+// @import "mixins";
+// @import "highlights";  
+// @import "svg-icons";
 
-// 2. Root Custom Properties
+// 2. Root Custom Properties & Mixins
 // =================================
+
+// Manual responsive mixin for GitHub Pages compatibility
+@mixin mobile {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+// Root custom properties
 :root {
   --primary-color: #4361ee;
   --primary-hover: #3a56d4;
