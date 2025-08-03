@@ -192,6 +192,8 @@ img {
   }
   
   .site-nav {
+    position: relative;
+    
     .nav-toggle {
       display: none;
       background: none;
@@ -247,7 +249,7 @@ img {
       align-items: center;
       
       @media (max-width: 768px) {
-        display: none;
+        display: flex;
         position: absolute;
         top: 100%;
         left: 0;
@@ -259,13 +261,16 @@ img {
         border-top: 1px solid var(--border-color);
         box-shadow: var(--shadow);
         opacity: 0;
+        visibility: hidden;
         transform: translateY(-10px);
         transition: all 0.3s ease;
+        pointer-events: none;
         
         &.active {
-          display: flex;
           opacity: 1;
+          visibility: visible;
           transform: translateY(0);
+          pointer-events: auto;
         }
       }
     }
