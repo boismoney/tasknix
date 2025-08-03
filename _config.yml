@@ -79,52 +79,30 @@ exclude:
   - .idea
   - .vscode
 
-# TaskNix-specific configurations
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      permalink: "/:title/"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      affiliate_disclosure: true
-      rating_system: true
-      toc: true
-
-# Content categories (standardized for Jekyll)
-categories:
-  - project_management
-  - note_taking
-  - time_tracking
-  - communication
-  - file_sharing
-  - automation
-  - writing_software
-  - scheduling_apps
-
-# Collections (GitHub Pages compatible)
+# Collections for categories
 collections:
-  productivity_tools:
+  categories:
     output: true
     permalink: /:collection/:name/
+  reviews:
+    output: true
+    permalink: /reviews/:title/
 
-# Enable custom styles (ensure file exists)
-minima:
-  include_css:
-    - /assets/css/custom.css
+# Redirect settings
+defaults:
+  - scope:
+      path: "*_*.md"
+      type: "pages"
+    values:
+      layout: "redirect"
+      redirect_to: "/:basename/"
 
-# Version info
-version: v1.0.0
+# Category settings
+category_path: "categories"
+category_layout: "category"
 
-# Header navigation configuration
-header_pages:
-  - about.md
-  - reviews.html
-  - comparisons.md
-  - categories.md
-  - contact.md
+# Important pages that need to work
+include:
+  - "*.html"
+  - "*.md"
+  - "_redirects"

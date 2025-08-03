@@ -1,0 +1,10 @@
+/writing_software   /writing-software   301
+/time_tracking     /time-tracking      301
+/note_taking       /note-taking        301
+/file_sharing      /file-sharing       301
+/scheduling_apps   /scheduling-apps    301
+/project_management /project-management 301
+
+# Handle potential old URLs
+/blog/*  /reviews/:splat  301
+/tools/* /reviews/:splat  301

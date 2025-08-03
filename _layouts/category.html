@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+<div class="posts-grid">
+    {% assign category_posts = site.posts | where_exp: "post", "post.categories contains page.category" %}
+    {% for post in category_posts %}
+    <article class="post-card">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="meta">Rating: {{ post.rating }}/5 | Updated: {{ post.date | date: "%b %d, %Y" }}</p>
+        <p>{{ post.excerpt | truncate: 140 }}</p>
+    </article>
+    {% endfor %}
+</div>
