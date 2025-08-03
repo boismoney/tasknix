@@ -10,6 +10,10 @@ highlighter: rouge
 
 # GitHub Pages compatibility
 remote_theme: jekyll/minima
+
+# Override minima's automatic navigation
+header_pages:
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
