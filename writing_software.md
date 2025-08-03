@@ -63,8 +63,8 @@ Writing tools help you:
 
 ## Learn More
 
-- [Note Taking Apps](/note_taking)
-- [Project Management Tools](/project_management)
+- [Note Taking Apps](/note-taking)
+- [Project Management Tools](/project-management)
 - [All Reviews](/reviews)
 - [Subscribe for Updates](/newsletter)
 

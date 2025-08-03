@@ -28,10 +28,10 @@ Modern communication platforms help you:
 
 ## Popular Communication Solutions
 
-- **Team Chat:** Slack, Microsoft Teams, Discord (reviews coming soon)
-- **Video Conferencing:** Zoom, Google Meet (reviews coming soon)
-- **Async Collaboration:** Twist, Loom (reviews coming soon)
-- **Unified Platforms:** RingCentral, Chanty (reviews coming soon)
+- **Team Chat:** [Slack](/reviews/slack-review), [Microsoft Teams](/reviews/microsoft-teams-review), [Discord](/reviews/discord-review)
+- **Video Conferencing:** [Zoom](/reviews/zoom-review), [Google Meet](/reviews/google-meet-review)
+- **Async Collaboration:** [Twist](/reviews/twist-review), [Loom](/reviews/loom-review)
+- **Unified Platforms:** [RingCentral](/reviews/ringcentral-review), [Chanty](/reviews/chanty-review)
 
 ---
 
@@ -62,8 +62,8 @@ Modern communication platforms help you:
 
 ## Learn More
 
-- [Project Management Tools](/project_management)
-- [Time Tracking Solutions](/time_tracking)
+- [Project Management Tools](/project-management)
+- [Time Tracking Solutions](/time-tracking)
 - [All Reviews](/reviews)
 - [Subscribe for Updates](/newsletter)
 

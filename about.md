@@ -19,8 +19,10 @@ We believe that the right tools can transform the way you work. That's why we:
 
 - Test each product for at least 30 hours before publishing a review
 - Use real-world scenarios and team feedback in our evaluations
-- Maintain strict editorial independence—[read our ethics policy](/ethics-policy/)
-- Update our reviews monthly to reflect the latest features and pricing
+- Maintain strict editorial independence—[read our ethics policy](/ethics-policy)
+- **Transparent Criteria:** See our [rating methodology](/rating-methodology) for details on how we score each tool.
+- **Comprehensive Comparisons:** Check out our [latest reviews](/reviews) and [feature comparison tables](/comparisons).
+- **Affiliate Disclosure:** We may earn commissions through affiliate links, but this never affects our ratings. [Learn more](/ethics-policy).
 
 ---
 
@@ -32,9 +34,9 @@ Our expert reviewers come from diverse backgrounds in project management, softwa
 
 ### How We Review
 
-- **Transparent Criteria:** See our [rating methodology](/rating-methodology/) for details on how we score each tool.
-- **Comprehensive Comparisons:** Check out our [latest reviews](/reviews/) and [feature comparison tables](/comparisons/).
-- **Affiliate Disclosure:** We may earn commissions through affiliate links, but this never affects our ratings. [Learn more](/ethics-policy/).
+- **Transparent Criteria:** See our [rating methodology](/rating-methodology) for details on how we score each tool.
+- **Comprehensive Comparisons:** Check out our [latest reviews](/reviews) and [feature comparison tables](/comparisons).
+- **Affiliate Disclosure:** We may earn commissions through affiliate links, but this never affects our ratings. [Learn more](/ethics-policy).
 
 ---
 
@@ -50,10 +52,10 @@ Have questions, suggestions, or want to recommend a tool for review? We'd love t
 
 ### Stay Connected
 
-Subscribe to our [newsletter](/newsletter/) for the latest reviews, tips, and exclusive productivity insights.
+Subscribe to our [newsletter](/newsletter) for the latest reviews, tips, and exclusive productivity insights.
 
 ---
 
-Thank you for visiting TaskNix. We're here to help you find your next favorite productivity tool!
+Thank you for visiting TaskNix. We’re here to help you find your next favorite productivity tool!
 
-[Browse All Reviews](/reviews/){: .button role="button" tabindex="0" }
+[Browse All Reviews](/reviews){: .button role="button" tabindex="0" }

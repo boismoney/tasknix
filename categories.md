@@ -17,28 +17,28 @@ Browse our main categories to discover the best tools, reviews, and expert guide
 
 ## Main Categories
 
-- [Project Management](/project_management)  
+- [Project Management](/project-management)  
   *Plan, track, and collaborate on projects with top tools like Asana, Trello, and ClickUp.*
 
-- [Time Tracking](/time_tracking)  
+- [Time Tracking](/time-tracking)  
   *Monitor productivity and billable hours with tools like Toggl, Harvest, and Clockify.*
 
 - [Automation](/automation)  
   *Automate repetitive tasks and connect your favorite apps with Zapier, Make, and more.*
 
-- [Note Taking](/note_taking)  
+- [Note Taking](/note-taking)  
   *Capture ideas and organize knowledge with Notion, Evernote, and OneNote.*
 
 - [Communication](/communication)  
   *Streamline team communication with Slack, Microsoft Teams, and other chat platforms.*
 
-- [File Sharing](/file_sharing)  
+- [File Sharing](/file-sharing)  
   *Share and collaborate on documents with Google Drive, Dropbox, and Box.*
 
-- [Writing Software](/writing_software)  
+- [Writing Software](/writing-software)  
   *Write, edit, and publish content with Grammarly, Scrivener, and more.*
 
-- [Scheduling Apps](/scheduling_apps)  
+- [Scheduling Apps](/scheduling-apps)  
   *Book meetings and manage calendars with Calendly, Doodle, and others.*
 
 ---

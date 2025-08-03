@@ -83,6 +83,11 @@ exclude:
 defaults:
   - scope:
       path: ""
+      type: "pages"
+    values:
+      permalink: "/:title/"
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"

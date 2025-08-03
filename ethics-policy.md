@@ -45,7 +45,9 @@ For more details, see our [Affiliate Disclosure Notice](/about#affiliate-disclos
 - **Hands-On Testing:** Every tool is tested for at least 30 hours by our team.
 - **Real-World Scenarios:** We use tools in actual workflows and team settings.
 - **Transparent Criteria:** See our [rating methodology](/rating-methodology) for how we score each product.
-- **Community Feedback:** We incorporate user reviews and feedback into our analysis.
+- [About TaskNix](/about)
+- [All Reviews](/reviews)
+- [Newsletter Signup](/newsletter)
 
 ---
 

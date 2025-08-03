@@ -62,7 +62,7 @@ Time tracking tools help you:
 
 ## Learn More
 
-- [Project Management Tools](/project_management)
+- [Project Management Tools](/project-management)
 - [Automation Solutions](/automation)
 - [All Reviews](/reviews)
 - [Subscribe for Updates](/newsletter)

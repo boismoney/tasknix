@@ -28,9 +28,9 @@ Automation tools can help you:
 
 ## Popular Automation Categories
 
-- **No-Code Automation Platforms:** [Zapier](/2025/08/02/zapier-review), [Make (Integromat)](/reviews/make-integromat-review)
-- **Marketing Automation:** [GoHighLevel](/reviews/gohighlevel-review), [ActiveCampaign](/reviews/activecampaign-review)
-- **Sales & CRM Automation:** [HubSpot](/reviews/hubspot-review), [Pipedrive](/2025/08/02/pipedrive-review)
+- **No-Code Automation Platforms:** [Zapier](/reviews/zapier-review), [Make (Integromat)](/reviews/make-integromat-review)
+- **Marketing Automation:** [GoHighLevel](/reviews/gohighlevel-review-2025-a-comprehensive-analysis-of-features-pros-and-cons), [ActiveCampaign](/reviews/activecampaign-review)
+- **Sales & CRM Automation:** [HubSpot](/reviews/hubspot-review), [Pipedrive](/reviews/pipedrive-review)
 - **Custom Scripting:** Python, JavaScript, and more
 
 ---
@@ -62,8 +62,8 @@ Automation tools can help you:
 
 ## Learn More
 
-- [Project Management Tools](/project_management)
-- [Time Tracking Solutions](/time_tracking)
+- [Project Management Tools](/project-management)
+- [Time Tracking Solutions](/time-tracking)
 - [All Reviews](/reviews)
 - [Subscribe for Updates](/newsletter)
 
