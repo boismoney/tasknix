@@ -1,113 +1,77 @@
 # Site Configuration for TaskNix.com
-name: TaskNix
-description: Expert reviews of productivity tools, software, and services
-avatar: https://tasknix.com/images/tasknix-logo.png  # Update with your actual logo URL
-
-# Site URL configuration
+title: TaskNix
+description: Expert productivity tool reviews and comparisons
+baseurl: ""
 url: "https://tasknix.com"
-baseurl: ""  # Leave empty unless using project GitHub Pages
 
-# Content settings
-permalink: /:title/
-timezone: America/New_York
-future: false
-
-# SEO Optimization
-title: TaskNix | Productivity Tools Reviews & Comparisons
-keywords: "productivity tools, software reviews, task management, time tracking"
-twitter_username: tasknix
-github_username: tasknix
-
-# Social/Footer links
-footer-links:
-  twitter: tasknix
-  github: tasknix/tasknix.github.io
-  linkedin: company/tasknix
-  rss: /feed.xml
-
-# Analytics and Comments
-google_analytics: UA-XXXXXX-X
-disqus: tasknix
-
-# Technical Configuration
+# Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
 
-# Plugins (GitHub Pages supported only)
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-
-# SEO TAG CONFIG (recommended)
-jekyll-seo-tag:
-  meta_tags:
-    - name: "twitter:card"
-      value: "summary_large_image"
-    - property: "og:image"
-      content: "/assets/your-default-social-image.jpg"
-
-# SITEMAP CONFIG (optional)
-sitemap:
-  lastmod: date
-  priority: 0.7
-  changefreq: weekly
-
-# FEED CONFIG (RSS/Atom)
-feed:
-  path: feed.xml
-  limit: 20
-
-# Sass processing (consolidated)
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Exclude files from build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
-  - vendor
-  - .idea
-  - .vscode
-
-# Collections for categories
+# Collections
 collections:
-  categories:
+  pages:
     output: true
-    permalink: /:collection/:name/
-  reviews:
+    permalink: /:name/
+  posts:
     output: true
-    permalink: /reviews/:title/
+    permalink: /:title/
 
-# Redirect settings
+# Default layouts
 defaults:
   - scope:
-      path: ""
+      path: "_pages"
+      type: "pages"
     values:
       layout: "default"
   - scope:
-      path: "*_*.html"
+      path: "_posts"
+      type: "posts"
     values:
-      layout: "redirect"
+      layout: "post"
 
-# Category settings
-category_path: "categories"
-category_layout: "category"
-
-# Important pages that need to work
+# Include these files
 include:
-  - "*.html"
-  - "*.md"
-  - "_redirects"
-  - "note-taking.html"
-  - "time-tracking.html" 
-  - "file-sharing.html"
-  - "scheduling-apps.html"
+  - _pages
+  - _posts
+  - assets
+  - images
+
+# Files that can be removed (they're now in _pages):
+# - writing_software.html (redirect file)
+# - time_tracking.html (redirect file)
+# - scheduling_apps.html (redirect file)
+# - project_management.html (redirect file)
+# - note_taking.html (redirect file)
+# - file_sharing.html (redirect file)
+# - ethics-policy.html (redirect file)
+# - contact.html (redirect file)
+# - comparisons.html (redirect file)
+# - automation.html (redirect file)
+# - about.html (redirect file)
+
+# Permalinks
+permalink: /:title/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Fix for page globbing
+keep_files:
+  - .git
+  - .svn
+
+# Sass settings
+sass:
+  style: compressed
+  sass_dir: _sass

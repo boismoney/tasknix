@@ -1,10 +1,13 @@
+# Build output
 _site
-.DS_Store
-.jekyll
-.jekyll-metadata
-.bundle
 .sass-cache
-Gemfile
-Gemfile.lock
-node_modules
-package.json
+.jekyll-cache
+.jekyll-metadata
+
+# Old redirect files
+/*.html
+!index.html
+
+# System files
+.DS_Store
+Thumbs.db
