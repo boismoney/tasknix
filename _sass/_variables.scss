@@ -31,3 +31,21 @@ $spacing-unit: 20px;
 // Spacing
 $spacing-half: $spacing-unit * 0.5;
 $spacing-double: $spacing-unit * 2;
+
+:root {
+  // Colors
+  --primary: #0366d6;
+  --text: #24292e;
+  --bg: #ffffff;
+  --border: #e1e4e8;
+  
+  // Layout
+  --container-max: 1200px;
+  --content-max: 800px;
+  --gap: clamp(1rem, 3vw, 2rem);
+  --radius: 6px;
+  
+  // Typography
+  --font-base: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --scale: clamp(0.875rem, 1vw + 0.5rem, 1rem);
+}
