@@ -8,3 +8,13 @@
 # Handle potential old URLs
 /blog/*  /reviews/:splat  301
 /tools/* /reviews/:splat  301
+
+/note-taking     /note_taking      301
+/time-tracking   /time_tracking    301
+/file-sharing    /file_sharing     301
+/scheduling-apps /scheduling_apps  301
+
+/note-taking/    /note_taking/     301
+/time-tracking/  /time_tracking/   301
+/file-sharing/   /file_sharing/    301
+/scheduling-apps/ /scheduling_apps/ 301

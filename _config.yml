@@ -64,9 +64,8 @@ feed:
 
 # Sass processing (consolidated)
 sass:
+  sass_dir: _sass
   style: compressed
-  load_paths:
-    - _sass
 
 # Exclude files from build
 exclude:
@@ -91,11 +90,13 @@ collections:
 # Redirect settings
 defaults:
   - scope:
-      path: "*_*.md"
-      type: "pages"
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "*_*.html"
     values:
       layout: "redirect"
-      redirect_to: "/:basename/"
 
 # Category settings
 category_path: "categories"
@@ -106,3 +107,7 @@ include:
   - "*.html"
   - "*.md"
   - "_redirects"
+  - "note-taking.html"
+  - "time-tracking.html" 
+  - "file-sharing.html"
+  - "scheduling-apps.html"
