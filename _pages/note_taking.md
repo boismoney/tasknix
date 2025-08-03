@@ -2,7 +2,7 @@
 layout: default
 title: "Note Taking"
 description: Discover the best note taking apps and knowledge management tools. Explore expert reviews, comparisons, and actionable tips for capturing and organizing your ideas.
-permalink: /note_taking/
+permalink: /note-taking/
 date: 2025-08-02
 ---
 

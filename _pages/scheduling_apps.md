@@ -2,7 +2,7 @@
 layout: default
 title: "Scheduling Apps"
 description: Discover the best scheduling apps and meeting booking tools. Explore expert reviews, comparisons, and actionable tips for managing your calendar and appointments.
-permalink: /scheduling_apps/
+permalink: /scheduling-apps/
 date: 2025-08-02
 ---
 

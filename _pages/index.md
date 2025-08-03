@@ -24,44 +24,44 @@ We research, test, and compare the latest productivity, project management, and 
 
 <div class="category-grid">
   <div class="category-card">
-    <h3><a href="/project-management">Project Management</a></h3>
+    <h3><a href="{{ '/pages/project-management' | relative_url }}">Project Management</a></h3>
     <p>Plan, track, and collaborate on projects with Asana, Trello, ClickUp, and more.</p>
-    <a href="/project-management" class="button secondary" role="button" tabindex="0">Explore Project Management Tools</a>
+    <a href="{{ '/pages/project-management' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Project Management Tools</a>
   </div>
   <div class="category-card">
-    <h3><a href="/note-taking">Note Taking</a></h3>
+    <h3><a href="{{ '/pages/note-taking' | relative_url }}">Note Taking</a></h3>
     <p>Capture ideas and organize knowledge with Notion, Obsidian, Evernote, and others.</p>
-    <a href="/note-taking" class="button secondary" role="button" tabindex="0">Explore Note Taking Apps</a>
+    <a href="{{ '/pages/note-taking' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Note Taking Apps</a>
   </div>
   <div class="category-card">
-    <h3><a href="/time-tracking">Time Tracking</a></h3>
+    <h3><a href="{{ '/pages/time-tracking' | relative_url }}">Time Tracking</a></h3>
     <p>Track productivity and billable hours with Toggl, Harvest, Timely, and more.</p>
-    <a href="/time-tracking" class="button secondary" role="button" tabindex="0">Explore Time Tracking Tools</a>
+    <a href="{{ '/pages/time-tracking' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Time Tracking Tools</a>
   </div>
   <div class="category-card">
-    <h3><a href="/communication">Communication</a></h3>
+    <h3><a href="{{ '/pages/communication' | relative_url }}">Communication</a></h3>
     <p>Streamline team chat, video calls, and async collaboration with Slack, Loom, and more.</p>
-    <a href="/communication" class="button secondary" role="button" tabindex="0">Explore Communication Tools</a>
+    <a href="{{ '/pages/communication' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Communication Tools</a>
   </div>
   <div class="category-card">
-    <h3><a href="/file-sharing">File Sharing</a></h3>
+    <h3><a href="{{ '/pages/file-sharing' | relative_url }}">File Sharing</a></h3>
     <p>Share and collaborate on documents with Google Drive, Dropbox, and Box.</p>
-    <a href="/file-sharing" class="button secondary" role="button" tabindex="0">Explore File Sharing Tools</a>
+    <a href="{{ '/pages/file-sharing' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore File Sharing Tools</a>
   </div>
   <div class="category-card">
-    <h3><a href="/automation">Automation</a></h3>
+    <h3><a href="{{ '/pages/automation' | relative_url }}">Automation</a></h3>
     <p>Automate repetitive tasks and connect your favorite apps with Zapier, Make, and more.</p>
-    <a href="/automation" class="button secondary" role="button" tabindex="0">Explore Automation Tools</a>
+    <a href="{{ '/pages/automation' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Automation Tools</a>
   </div>
   <div class="category-card">
-    <h3><a href="/writing-software">Writing Software</a></h3>
+    <h3><a href="{{ '/pages/writing-software' | relative_url }}">Writing Software</a></h3>
     <p>Write, edit, and publish content with Grammarly, Scrivener, and more.</p>
-    <a href="/writing-software" class="button secondary" role="button" tabindex="0">Explore Writing Software</a>
+    <a href="{{ '/pages/writing-software' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Writing Software</a>
   </div>
   <div class="category-card">
-    <h3><a href="/scheduling-apps">Scheduling Apps</a></h3>
+    <h3><a href="{{ '/pages/scheduling-apps' | relative_url }}">Scheduling Apps</a></h3>
     <p>Book meetings and manage calendars with Calendly, Doodle, and others.</p>
-    <a href="/scheduling-apps" class="button secondary" role="button" tabindex="0">Explore Scheduling Apps</a>
+    <a href="{{ '/pages/scheduling-apps' | relative_url }}" class="button secondary" role="button" tabindex="0">Explore Scheduling Apps</a>
   </div>
 </div>
 

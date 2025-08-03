@@ -2,7 +2,7 @@
 layout: default
 title: "File Sharing"
 description: Discover the best file sharing tools and cloud storage solutions. Explore expert reviews, comparisons, and actionable tips for secure and efficient file collaboration.
-permalink: /file_sharing/
+permalink: /file-sharing/
 date: 2025-08-02
 ---
 

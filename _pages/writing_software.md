@@ -2,7 +2,7 @@
 layout: default
 title: "Writing Software"
 description: Discover the best writing software and content creation tools. Explore expert reviews, comparisons, and actionable tips for writers, bloggers, and content creators.
-permalink: /writing_software/
+permalink: /writing-software/
 date: 2025-08-02
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: "Time Tracking"
 description: Discover the best time tracking tools, software, and strategies. Explore expert reviews, comparisons, and actionable tips for tracking productivity and billable hours.
-permalink: /time_tracking/
+permalink: /time-tracking/
 date: 2025-08-02
 ---
 
