@@ -29,10 +29,10 @@ Writing tools help you:
 
 ## Popular Writing Solutions
 
-- **Distraction-Free Writing:** [Bear](/reviews/bear-review), [iA Writer](/reviews/ia-writer-review)
-- **Long-Form & Novel Writing:** [Scrivener](/reviews/scrivener-review), [Ulysses](/reviews/ulysses-review)
-- **Grammar & Style:** [Grammarly](/reviews/grammarly-review), [ProWritingAid](/reviews/prowritingaid-review)
-- **Blogging & Publishing:** [WordPress](/reviews/wordpress-review), [Ghost](/reviews/ghost-review)
+- **Distraction-Free Writing:** [Bear](/2025-08-02-bear-review), [iA Writer](/2025-08-02-ia-writer-review)
+- **Long-Form & Novel Writing:** [Scrivener](/2025-08-02-scrivener-review), [Ulysses](/2025-08-02-ulysses-review)
+- **Grammar & Style:** [Grammarly](/2025-08-02-grammarly-review), [ProWritingAid](/2025-08-02-prowritingaid-review)
+- **Blogging & Publishing:** [WordPress](/2025-08-02-wordpress-review), [Ghost](/2025-08-02-ghost-review)
 
 ---
 

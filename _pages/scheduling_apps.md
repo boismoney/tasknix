@@ -28,9 +28,9 @@ Scheduling apps help you:
 
 ## Popular Scheduling Solutions
 
-- **Meeting Booking:** [Calendly](/reviews/calendly-review), [Doodle](/reviews/doodle-review), [YouCanBook.me](/reviews/youcanbookme-review)
-- **Team Scheduling:** [When I Work](/reviews/when-i-work-review), [Acuity Scheduling](/reviews/acuity-scheduling-review)
-- **Calendar Management:** [Google Calendar](/reviews/google-calendar-review), [Outlook Calendar](/reviews/outlook-calendar-review)
+- **Meeting Booking:** [Calendly](/2025-08-02-calendly-review), [YouCanBook.me](/2025-08-02-youcanbookme-review)
+- **Team Scheduling:** [When I Work](/2025-08-02-when-i-work-review), [Acuity Scheduling](/2025-08-02-acuity-scheduling-review)  
+- **Calendar Management:** [Outlook Calendar](/2025-08-02-outlook-calendar-review)
 
 ---
 
