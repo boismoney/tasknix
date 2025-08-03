@@ -1,23 +1,32 @@
 // ===============================
 // TABLE OF CONTENTS
 // ===============================
-// 1. Imports
+// 1. Imports & Dependencies
 // 2. Root Custom Properties
 // 3. Base Elements & Typography
-// 4. Layout & Containers
-// 5. Navigation
-// 6. Cards & Components
-// 7. Buttons & Interactive Elements
-// 8. Content Elements
-// 9. Theme & Accessibility
-// 10. Utility Classes
-// 11. Responsive Design
-// 8. Post/Entry Content
-// 9. Footer
-// 10. Affiliate Elements
-// 11. Media Queries & Theme Modes
-// 12. Utility Classes
-// 13. SVG Icons & Syntax Highlighting
+// 4. Layout & Grid
+// 5. Navigation & Header
+// 6. Components
+//    - Cards
+//    - Buttons
+//    - Tables
+//    - Forms
+// 7. Content Styles
+//    - Posts
+//    - Entries
+//    - Reviews
+// 8. Footer
+// 9. Special Elements
+//    - Affiliate Elements
+//    - CTAs
+//    - Notices
+// 10. Theme Modes
+//    - Dark Mode
+//    - High Contrast
+//    - Reduced Motion
+// 11. Utilities & Helpers
+// 12. Media Queries
+// 13. Third Party
 
 // 1. Imports
 // =================================
@@ -728,16 +737,25 @@ img {
   }
 }
 
-// 12. Utility Classes
+// 11. Utilities & Helpers
 // =================================
+// Text alignment
 .text-center { text-align: center !important; }
 .text-right { text-align: right !important; }
+.text-left { text-align: left !important; }
+
+// Spacing
 .mt-0 { margin-top: 0 !important; }
 .mb-0 { margin-bottom: 0 !important; }
+.mx-auto { margin-inline: auto !important; }
+.my-0 { margin-block: 0 !important; }
+
+// Display
 .hidden { display: none !important; }
+.block { display: block !important; }
+.flex { display: flex !important; }
 
-
-// RESPONSIVE
+// Responsive
 @include mobile {
   .container {
     padding: 0 15px;
@@ -748,20 +766,7 @@ img {
   }
 }
 
-// Syntax highlighting
-@import "highlights";
-@import "svg-icons";
-
-// Utility: Spacing for large screens
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1000px;
-  }
-
-  .entry img {
-    max-width: 600px;
-  }
-}
+// End of file - All imports should be at the top of the file
 
 // Utility: Rounded corners, subtle transitions
 .card,
