@@ -1,34 +1,30 @@
----
----
 
-// Import base styles
-@use "sass:math";
-@import "_variables";
-@import "_reset";
-@import "_mixins";
-@import "_dark-mode";
+// Core imports
+@import "base/variables";
+@import "base/reset";
+@import "base/mixins";
 
-// Base styles
-body {
-  font-family: var(--font-base);
-  font-size: var(--scale);
-  color: var(--text);
-  background: var(--bg);
-}
+// Components
+@import "components/header";
+@import "components/footer"; 
+@import "components/buttons";
+@import "components/cards";
+@import "components/forms";
 
-// Layout containers
-.container {
-  width: min(var(--container-max), 100% - var(--gap));
-  margin-inline: auto;
-  padding-inline: var(--gap);
-}
+// Layout
+@import "layout/grid";
+@import "layout/containers";
+@import "layout/responsive";
 
-// Image responsiveness fixes
-img {
-  @include responsive-image;
-  border-radius: var(--radius);
-}
+// Pages
+@import "pages/home";
+@import "pages/reviews";
+@import "pages/post";
 
+// Utils
+@import "utils/dark-mode";
+@import "utils/typography";
+@import "utils/helpers";
 .hero-image {
   aspect-ratio: 16/9;
   width: 100%;
@@ -161,4 +157,5 @@ footer {
   .hero-image {
     max-height: 300px;
   }
-}
+  
+  }

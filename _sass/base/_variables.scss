@@ -1,0 +1,33 @@
+// Colors
+$primary: #0366d6;
+$secondary: #2ea44f;
+$text: #24292e;
+$background: #ffffff;
+$border: #e1e4e8;
+
+// Typography
+$font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+
+// Layout
+$container-max: 1200px;
+$content-max: 800px;
+$gap: clamp(1rem, 3vw, 2rem);
+$radius: 6px;
+
+// Custom properties
+:root {
+  --primary: #{$primary};
+  --secondary: #{$secondary};
+  --text: #{$text};
+  --background: #{$background};
+  --border: #{$border};
+  
+  --container-max: #{$container-max};
+  --content-max: #{$content-max};
+  --gap: #{$gap};
+  --radius: #{$radius};
+  
+  --font-base: #{$font-base};
+  --font-mono: #{$font-mono};
+}
