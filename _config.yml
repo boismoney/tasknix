@@ -8,7 +8,15 @@ url: "https://tasknix.com"
 markdown: kramdown
 highlighter: rouge
 
-# Collections - Simplified
+# GitHub Pages compatibility
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-github-metadata
+
+# Collections - GitHub Pages compatible
 collections:
   pages:
     output: true
@@ -17,13 +25,13 @@ collections:
     output: true
     permalink: /:title/
 
-# Default layouts
+# Default layouts - Fixed for GitHub Pages
 defaults:
   - scope:
       path: "_pages"
       type: "pages"
     values:
-      layout: "default"
+      layout: "page"
   - scope:
       path: "_posts"
       type: "posts"
@@ -33,16 +41,13 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "default"
+      layout: "page"
 
 # Include these files
 include:
   - _pages
-  - _posts
-  - assets
-  - images
 
-# Permalinks
+# Permalinks - GitHub Pages format
 permalink: /:title/
 
 # Exclude from processing
@@ -56,14 +61,9 @@ exclude:
   - vendor
   - .sass-cache
   - .jekyll-cache
+  - .gitignore
 
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Sass settings
+# Sass settings - GitHub Pages compatible
 sass:
   sass_dir: _sass
   style: compressed
@@ -73,3 +73,28 @@ author: TaskNix Team
 twitter:
   username: tasknix
   card: summary_large_image
+
+# GitHub Pages specific settings
+github:
+  is_project_page: false
+  repository_url: https://github.com/yourusername/tasknix
+
+# Markdown settings for GitHub Pages
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Plugin settings
+feed:
+  path: atom.xml
+
+sitemap:
+  exclude:
+    - "/404.html"
+    - "/search/"
