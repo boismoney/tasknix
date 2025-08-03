@@ -25,11 +25,11 @@ Here you'll find side-by-side feature, pricing, and performance comparisons of t
 
 ## Popular Comparisons
 
-- [Asana vs Trello vs ClickUp](/reviews/asana-vs-trello-vs-clickup-comparison)
-- [Zapier vs Make (Integromat)](/reviews/zapier-vs-make-comparison)
-- [GoHighLevel vs HubSpot vs ActiveCampaign](/reviews/gohighlevel-vs-hubspot-vs-activecampaign-comparison)
-- [Notion vs Evernote vs OneNote](/reviews/notion-vs-evernote-vs-onenote-comparison)
-- [Monday.com vs Jira vs Wrike](/reviews/monday-vs-jira-vs-wrike-comparison)
+- [Asana vs Trello vs ClickUp](/asana-vs-trello-vs-clickup-comparison)
+- [Zapier vs Make (Integromat)](/zapier-vs-make-comparison)
+- [GoHighLevel vs HubSpot vs ActiveCampaign](/gohighlevel-vs-hubspot-vs-activecampaign-comparison)
+- [Notion vs Evernote vs OneNote](/notion-vs-evernote-vs-onenote-comparison)
+- [Monday.com vs Jira vs Wrike](/monday-vs-jira-vs-wrike-comparison)
 
 ---
 

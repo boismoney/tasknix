@@ -28,10 +28,10 @@ Modern communication platforms help you:
 
 ## Popular Communication Solutions
 
-- **Team Chat:** [Slack](/reviews/slack-review), [Microsoft Teams](/reviews/microsoft-teams-review), [Discord](/reviews/discord-review)
-- **Video Conferencing:** [Zoom](/reviews/zoom-review), [Google Meet](/reviews/google-meet-review)
-- **Async Collaboration:** [Twist](/reviews/twist-review), [Loom](/reviews/loom-review)
-- **Unified Platforms:** [RingCentral](/reviews/ringcentral-review), [Chanty](/reviews/chanty-review)
+- **Team Chat:** [Slack](/slack-review), [Microsoft Teams](/microsoft-teams-review), [Discord](/discord-review)
+- **Video Conferencing:** [Zoom](/zoom-review), [Google Meet](/google-meet-review)
+- **Async Collaboration:** [Twist](/twist-review), [Loom](/loom-review)
+- **Unified Platforms:** [RingCentral](/ringcentral-review), [Chanty](/chanty-review)
 
 ---
 

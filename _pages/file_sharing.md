@@ -28,9 +28,9 @@ File sharing and cloud storage tools help you:
 
 ## Popular File Sharing Solutions
 
-- **Cloud Storage:** [Google Drive](/reviews/google-drive-review), [Dropbox](/reviews/dropbox-review), [Box](/reviews/box-review)
-- **Team Collaboration:** [Microsoft OneDrive](/reviews/onedrive-review), [Slack](/reviews/slack-review) (file uploads)
-- **Secure File Transfer:** [WeTransfer](/reviews/wetransfer-review), [SendSafely](/reviews/sendsafely-review)
+- **Cloud Storage:** [Google Drive](/google-drive-review), [Dropbox](/dropbox-review), [Box](/box-review)
+- **Team Collaboration:** [Microsoft OneDrive](/onedrive-review), [Slack](/slack-review) (file uploads)
+- **Secure File Transfer:** [WeTransfer](/wetransfer-review), [SendSafely](/sendsafely-review)
 
 ---
 

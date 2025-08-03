@@ -28,10 +28,10 @@ Note taking and knowledge management tools help you:
 
 ## Popular Note Taking Solutions
 
-- **All-in-One Workspaces:** [Notion](/reviews/notion-review), [Coda](/reviews/coda-review)
-- **Traditional Note Apps:** [Evernote](/reviews/evernote-review), [OneNote](/reviews/onenote-review)
-- **Markdown & Minimalist:** [Obsidian](/reviews/obsidian-review), [Bear](/reviews/bear-review)
-- **Collaboration:** [Google Keep](/reviews/google-keep-review), [Slite](/reviews/slite-review)
+- **All-in-One Workspaces:** [Notion](/notion-review), [Coda](/coda-review)
+- **Traditional Note Apps:** [Evernote](/evernote-review), [OneNote](/onenote-review)
+- **Markdown & Minimalist:** [Obsidian](/obsidian-review), [Bear](/bear-review)
+- **Collaboration:** [Google Keep](/google-keep-review), [Slite](/slite-review)
 
 ---
 
