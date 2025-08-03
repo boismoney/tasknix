@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <!-- Update the CSS path to use the correct location -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
     <nav class="main-nav">
@@ -21,11 +21,11 @@
         </div>
     </nav>
 
-    <main class="container">
+    <main class="content">
         {{ content }}
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <div class="container">
             <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. <a href="/ethics-policy">Ethics Policy</a></p>
         </div>
