@@ -77,7 +77,7 @@ twitter:
 # GitHub Pages specific settings
 github:
   is_project_page: false
-  repository_url: https://github.com/yourusername/tasknix
+  repository_url: https://github.com/Test/tasknix
 
 # Markdown settings for GitHub Pages
 kramdown:
