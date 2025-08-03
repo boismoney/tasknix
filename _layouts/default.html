@@ -4,25 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
-    <nav class="main-nav">
-        <div class="container">
-            <a href="/" class="logo">TaskNix</a>
-            <ul>
-                <li><a href="/reviews">Reviews</a></li>
-                <li><a href="/categories">Categories</a></li>
-                <li><a href="/comparisons">Comparisons</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    
+    <header class="site-header">
+        <nav class="main-nav">
+            <div class="container">
+                <a href="/" class="logo">TaskNix</a>
+                <ul>
+                    <li><a href="/reviews">Reviews</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/comparisons">Comparisons</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <main class="content">
-        {{ content }}
+    <main id="main-content" class="site-main">
+        <div class="container">
+            {{ content }}
+        </div>
     </main>
 
     <footer class="site-footer">
@@ -31,22 +37,4 @@
         </div>
     </footer>
 </body>
-</html>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
-  </body>
 </html>
