@@ -1,5 +1,3 @@
-> March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
-
 # TaskNix - Productivity Tools Review Site
 
 TaskNix is a Jekyll-based website providing expert reviews and comparisons of productivity tools, project management software, and automation platforms.
@@ -25,12 +23,13 @@ TaskNix is a Jekyll-based website providing expert reviews and comparisons of pr
 tasknix/
 ├── _pages/           # Static pages (about, categories, etc.)
 ├── _posts/           # Blog posts and reviews
-├── _sass/            # SCSS partials
-├── assets/           # Images, CSS, JS
-├── images/           # Site images
 ├── _layouts/         # Page templates
+├── _includes/        # Reusable components
+├── assets/           # CSS, JS, images
+│   └── css/          # Stylesheets
+├── images/           # Site images
 ├── _config.yml       # Jekyll configuration
-└── style.scss        # Main stylesheet
+└── index.md          # Homepage
 ```
 
 ## 🔧 Development
@@ -51,26 +50,32 @@ categories: ["category"]
 tags: ["tool-name", "review", "2025"]
 featured_image: /images/tool-screenshot.jpg
 excerpt: "Brief description of the tool review."
+seo_title: "Tool Name Review 2025 - Pros, Cons & Analysis"
+meta_description: "Comprehensive review of Tool Name with testing results and comparison."
+last_updated: 2025-MM-DD
+permalink: /tool-name-review/
 ---
 ```
 
 ### Adding New Categories
 
 1. Create a new page in `_pages/` with proper permalink
-2. Add category to navigation in `_layouts/default.html`
-3. Update homepage category grid
+2. Add category to navigation in `_config.yml`
+3. Update homepage category grid in `index.md`
 
 ## 🎨 Styling
 
-- Main styles: `style.scss` and `assets/css/main.scss`
-- Component styles in `_sass/` directory
+- Main styles: `assets/css/style.scss` 
+- Additional components: `assets/css/main.scss`
 - CSS Variables for theming in `:root`
+- Jekyll processes SCSS automatically
 
 ## 📱 Responsive Design
 
 - Mobile-first approach
 - Breakpoints: 768px, 1200px
 - Grid system using CSS Grid and Flexbox
+- All review images are responsive with `.review-img` class
 
 ## 🔍 SEO Features
 
@@ -78,43 +83,64 @@ excerpt: "Brief description of the tool review."
 - Open Graph meta tags
 - Structured data for reviews
 - Optimized images with lazy loading
+- Custom permalinks for clean URLs
 
 ## 🚀 Deployment
 
-The site is configured for GitHub Pages deployment. Push to main branch to deploy.
+The site is configured for GitHub Pages deployment with the Minima theme. Push to main branch to deploy.
+
+### Key Configuration
+- Theme: `jekyll/minima` (remote theme)
+- Plugins: SEO tag, feed generation, sitemap
+- Build: Automatic via GitHub Actions
+
+## 📊 Current Content
+
+- **{{ site.posts.size }} tool reviews** across productivity categories
+- **8 category pages** with curated tool lists
+- **Professional review format** with ratings, pros/cons, and detailed analysis
 
 ## 📧 Contact
 
 - Website: https://tasknix.com
-- Email: hello@tasknix.com
-## Questions?
+- Repository: https://github.com/username/tasknix
 
-[Open an Issue](https://github.com/barryclark/jekyll-now/issues/new) and let's chat!
+## 🛠️ Technical Stack
 
-## Other forkable themes
+- **Jekyll 3.10.0** with GitHub Pages
+- **Minima theme** with custom overrides
+- **SCSS** for styling with CSS custom properties
+- **Responsive design** with mobile-first approach
+- **SEO optimized** with structured data
 
-You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
+## 📝 Content Guidelines
 
-- [Hyde](https://github.com/poole/hyde) by MDO
-- [Lanyon](https://github.com/poole/lanyon) by MDO
-- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
-- [Left](https://github.com/holman/left) by Zach Holman
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) by Michael Rose
-- [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
+### Review Structure
+1. Quick verdict with rating
+2. Pros vs Cons table
+3. Detailed feature analysis
+4. Pricing breakdown
+5. Competitor comparison
+6. Final recommendations
 
-## Credits
+### Image Standards
+- Featured images: 1200x630px for social sharing
+- Review screenshots: Responsive with `.review-img` class
+- Alt text required for all images
+- Lazy loading implemented
 
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej), [Ben Abbott](https://github.com/jaminscript), [Ray Nicholus](https://github.com/rnicholus), [Erin Grand](https://github.com/eringrand), [Léo Colombaro](https://github.com/LeoColomb), [Dean Attali](https://github.com/daattali), [Clayton Errington](https://github.com/cjerrington), [Colton Fitzgerald](https://github.com/coltonfitzgerald), [Trace Mayer](https://github.com/sunnankar) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
+## 🔄 Contributing
 
-## Contributing
+1. Fork the repository
+2. Create a feature branch
+3. Add your review following the template
+4. Test locally with `bundle exec jekyll serve`
+5. Submit a pull request
 
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
+## 📄 License
 
-You can start by [opening an issue](https://github.com/barryclark/jekyll-now/issues/new) describing the problem that you're looking to resolve and we'll go from there.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-I want to keep Jekyll Now as minimal as possible. Every line of code should be one that's useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it's not something that most people will use, it probably won't get merged. :guardsman:
+---
+
+*Built with Jekyll and hosted on GitHub Pages. Helping teams find the right productivity tools since 2025.*

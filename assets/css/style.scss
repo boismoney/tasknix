@@ -274,35 +274,11 @@ body {
   }
 }
 
-// Responsive design
-@media (max-width: 768px) {
-  .button {
+// Post content styling
+.post-content, .home {
+  table {
     width: 100%;
-    text-align: center;
-    display: block;
-  }
-  
-  .wrapper {
-    padding: 0 15px;
-  }
-}
-
-// Dark mode
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #121212;
-    --card-bg: #1e1e1e;
-    --text-color: #eaeaea;
-    --text-light: #999;
-    --border-color: #2a2a2a;
-    --primary-color: #8ab4f8;
-    --primary-hover: #729cf3;
-  }
-  
-  .affiliate-disclosure {
-    background: #2a2a2a;
-  }
-}
+    margin: 2rem 0;
     border-collapse: collapse;
     font-size: 0.95rem;
     
@@ -335,116 +311,12 @@ body {
   }
 }
 
-// ===============================
-// 7. AFFILIATE DISCLOSURE
-// ===============================
-.affiliate-disclosure {
-  background: #f6f8fa;
-  padding: 1.5rem;
-  border-radius: var(--radius);
-  margin: 2rem 0;
-  position: relative;
-  border-left: 4px solid var(--warning-color);
-  
-  button {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    background: none;
-    border: none;
-    font-size: 1.2em;
-    cursor: pointer;
-    color: #666;
-    padding: 5px;
-    border-radius: 4px;
-    
-    &:hover {
-      background: rgba(0,0,0,0.1);
-    }
-  }
-  
-  h3 {
-    margin-top: 0;
-    color: var(--warning-color);
-  }
-}
-
-// ===============================
-// 8. SITE HEADER OVERRIDES
-// ===============================
-.site-header {
-  background: #111;
-  border: none;
-  
-  .site-title {
-    color: white !important;
-    font-size: 1.5rem;
-    font-weight: bold;
-    
-    &:hover {
-      color: var(--primary-color) !important;
-      text-decoration: none;
-    }
-  }
-  
-  .nav-items {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    
-    @media (max-width: 768px) {
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-  }
-  
-  .nav-item {
-    color: white !important;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: all var(--transition);
-    
-    &:hover {
-      color: var(--primary-color) !important;
-      background: rgba(255,255,255,0.1);
-      text-decoration: none;
-    }
-  }
-}
-
-// ===============================
-// 9. FOOTER STYLING
-// ===============================
-.site-footer {
-  background: var(--text-color);
-  color: white;
-  border: none;
-  
-  .footer-col-wrapper {
-    color: white;
-  }
-  
-  a {
-    color: white;
-    
-    &:hover {
-      color: var(--primary-color);
-    }
-  }
-}
-
-// ===============================
-// 10. RESPONSIVE DESIGN
-// ===============================
+// Responsive design
 @media (max-width: 768px) {
-  .category-grid {
-    grid-template-columns: 1fr;
-  }
-  
   .button {
     width: 100%;
     text-align: center;
+    display: block;
   }
   
   .wrapper {
@@ -452,9 +324,7 @@ body {
   }
 }
 
-// ===============================
-// 11. DARK MODE
-// ===============================
+// Dark mode
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #121212;
