@@ -1,4 +1,3 @@
-
 // ===============================
 // 1. IMPORTS & VARIABLES
 // ===============================
@@ -913,7 +912,6 @@ th {
     margin: 2rem 0;
     border-collapse: collapse;
     font-size: 0.95rem;
-    min-width: 600px; /* Ensures horizontal scroll is needed on narrow screens */
     display: block;
    overflow-x: auto;
    white-space: nowrap;
@@ -1159,5 +1157,7 @@ th {
 .entry,
 .review-card {
   border-radius: 12px;
+  transition: box-shadow 0.3s ease;
+}
   transition: box-shadow 0.3s ease;
 }

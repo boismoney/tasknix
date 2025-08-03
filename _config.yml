@@ -36,19 +36,6 @@ include:
   - assets
   - images
 
-# Files that can be removed (they're now in _pages):
-# - writing_software.html (redirect file)
-# - time_tracking.html (redirect file)
-# - scheduling_apps.html (redirect file)
-# - project_management.html (redirect file)
-# - note_taking.html (redirect file)
-# - file_sharing.html (redirect file)
-# - ethics-policy.html (redirect file)
-# - contact.html (redirect file)
-# - comparisons.html (redirect file)
-# - automation.html (redirect file)
-# - about.html (redirect file)
-
 # Permalinks
 permalink: /:title/
 
@@ -66,14 +53,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Fix for page globbing
-keep_files:
-  - .git
-  - .svn
-
-# Theme settings
-theme: null # Disable default theme
+# Sass settings
 sass:
   sass_dir: _sass
   style: compressed
   sourcemap: never
+
+# Keep files
+keep_files:
+  - .git
+  - .svn
