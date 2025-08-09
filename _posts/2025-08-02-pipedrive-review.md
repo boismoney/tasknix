@@ -24,6 +24,8 @@ meta_description: "Comprehensive Pipedrive review with testing results, sales pi
 - **Starting Price**: $14.90/user/month for Essential plan
 - **Bottom Line**: Excellent sales-focused CRM with intuitive design, though lacks broader business management features.
 
+**Homepage:** [pipedrive.com](https://www.pipedrive.com/)
+
 ![Pipedrive Review 2025](https://example.com/path-to-your-image.jpg)
 
 ## 📊 Table of Contents

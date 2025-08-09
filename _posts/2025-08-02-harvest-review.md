@@ -24,6 +24,8 @@ meta_description: "Comprehensive Harvest review with testing results, reporting 
 - **Starting Price**: Free for 1 user, 2 projects; paid plans from $12/month
 - **Bottom Line**: Excellent integrated business solution with premium pricing but comprehensive features.
 
+**Homepage:** [getharvest.com](https://www.getharvest.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

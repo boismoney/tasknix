@@ -24,7 +24,9 @@ meta_description: "Comprehensive WeTransfer review with testing results, file tr
 - **Starting Price**: Free up to 2GB; WeTransfer Pro from $10/month
 - **Bottom Line**: Excellent for simple file transfers, but limited for ongoing file management and collaboration needs.
 
-## 📊 Pricing: How Much Does WeTransfer Cost?
+**Homepage:** [wetransfer.com](https://wetransfer.com)
+
+## 📈 Pricing: How Much Does WeTransfer Cost?
 
 WeTransfer has a straightforward pricing model:
 

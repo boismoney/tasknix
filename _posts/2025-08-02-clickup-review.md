@@ -16,6 +16,8 @@ meta_description: "Comprehensive ClickUp review with testing results, feature an
 
 ## 🎯 Quick Verdict
 
+**Homepage:** [clickup.com](https://clickup.com/)
+
 **ClickUp** attempts to replace multiple productivity tools with an all-in-one workspace featuring extensive customization and powerful features, though complexity and performance issues can hinder adoption for some teams.
 
 **Rating: ⭐⭐⭐⭐☆ (3.9/5)**

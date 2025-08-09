@@ -24,6 +24,8 @@ meta_description: "Comprehensive Monday.com review with testing results, customi
 - **Starting Price**: Free for up to 2 users; paid plans from $8/user/month
 - **Bottom Line**: Excellent customization and visual design with powerful features, but complexity and pricing may deter smaller teams.
 
+**Homepage:** [monday.com](https://monday.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

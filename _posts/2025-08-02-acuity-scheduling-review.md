@@ -61,11 +61,8 @@ schema_markup: |
 
 **Rating: ⭐⭐⭐⭐☆ (4.1/5)**
 
-- **Best For**: Businesses requiring advanced scheduling automation and customization
-- **Starting Price**: $14/month (no free plan)
-- **Bottom Line**: Premium scheduling platform with unmatched customization and business features
-- **Alternative To**: Calendly, Square Appointments, SimplyBook.me
-- **Setup Time**: 1-2 hours for basic setup, 4-6 hours for full customization
+
+**Homepage:** [acuityscheduling.com](https://acuityscheduling.com/)
 
 ### Key Metrics
 

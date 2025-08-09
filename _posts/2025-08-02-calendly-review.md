@@ -55,11 +55,8 @@ schema_markup: |
 
 **Rating: ⭐⭐⭐⭐☆ (4.1/5)**
 
-- **Best For**: Teams and organizations needing advanced scheduling automation
-- **Starting Price**: Free for basic features; paid plans from $8/month
-- **Bottom Line**: Enterprise-grade scheduling platform with excellent customization and integration options
-- **Alternative To**: YouCanBook.me, Acuity Scheduling, Microsoft Bookings
-- **Setup Time**: ~30 minutes for basic setup, 2-3 hours for full enterprise configuration
+
+**Homepage:** [calendly.com](https://calendly.com/)
 
 ### Key Metrics
 

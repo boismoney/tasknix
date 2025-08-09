@@ -20,9 +20,8 @@ meta_description: "Comprehensive ActiveCampaign review with testing results, pri
 
 **Rating: ⭐⭐⭐⭐☆ (4.2/5)**
 
-- **Best For**: Growing businesses needing advanced automation
-- **Starting Price**: $15/month for 500 contacts
-- **Bottom Line**: Powerful automation capabilities with a steeper learning curve than basic email tools.
+
+**Homepage:** [activecampaign.com](https://www.activecampaign.com/)
 
 ## ✅ Pros vs ❌ Cons
 

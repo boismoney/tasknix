@@ -24,6 +24,7 @@ meta_description: "Comprehensive Doodle review with testing results, scheduling 
 - **Starting Price**: Free with limitations; paid plans from $4.49/month
 - **Bottom Line**: Excellent for group scheduling and polls, but limited for individual appointment booking needs.
 
+**Homepage:** [doodle.com](https://doodle.com/)
 
 ## 📅 Introduction
 

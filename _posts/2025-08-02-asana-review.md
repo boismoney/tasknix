@@ -16,6 +16,8 @@ meta_description: "Comprehensive Asana review with testing results, pricing anal
 
 ## 🎯 Quick Verdict
 
+**Homepage:** [asana.com](https://asana.com/)
+
 **Asana** remains one of the most intuitive project management platforms, excelling in team collaboration and task organization while maintaining a clean, user-friendly interface that doesn't overwhelm new users.
 
 **Rating: ⭐⭐⭐⭐☆ (4.1/5)**

@@ -24,6 +24,8 @@ meta_description: "Comprehensive Toggl Track review with testing results, report
 - **Starting Price**: Free for up to 5 users
 - **Bottom Line**: Excellent balance of ease-of-use and functionality, though advanced features require paid plans.
 
+**Homepage:** [toggl.com](https://toggl.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

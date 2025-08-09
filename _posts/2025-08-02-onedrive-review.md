@@ -24,6 +24,8 @@ meta_description: "Comprehensive OneDrive review with testing results, Microsoft
 - **Starting Price**: Free 5GB; paid plans from $1.99/month
 - **Bottom Line**: Outstanding value for Microsoft users with good features, but limited appeal outside the Microsoft ecosystem.
 
+**Homepage:** [microsoft.com/microsoft-365/onedrive](https://www.microsoft.com/microsoft-365/onedrive)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

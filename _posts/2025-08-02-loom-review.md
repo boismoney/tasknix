@@ -24,6 +24,8 @@ meta_description: "Comprehensive Loom review with testing results, video quality
 - **Starting Price**: Free for 5-minute videos; paid plans from $8/month
 - **Bottom Line**: Outstanding for simple video communication with instant sharing, but lacks advanced editing capabilities.
 
+**Homepage:** [loom.com](https://www.loom.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

@@ -24,6 +24,8 @@ meta_description: "Comprehensive OneNote review with testing results, Microsoft 
 - **Starting Price**: Completely free
 - **Bottom Line**: Solid digital notebook with good collaboration, but feels dated compared to modern note-taking solutions.
 
+**Homepage:** [microsoft.com/microsoft-365/onenote](https://www.microsoft.com/microsoft-365/onenote)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

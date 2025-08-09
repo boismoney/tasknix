@@ -24,6 +24,8 @@ meta_description: "Comprehensive Google Keep review with testing results, organi
 - **Starting Price**: Completely free
 - **Bottom Line**: Perfect for simple note-taking and reminders, but inadequate for complex knowledge management or long-form writing.
 
+**Homepage:** [keep.google.com](https://keep.google.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

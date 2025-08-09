@@ -26,6 +26,8 @@ permalink: /timely-review/
 - **Starting Price**: $8/user/month for Starter plan
 - **Bottom Line**: Revolutionary automatic tracking with privacy protection, but premium pricing limits accessibility.
 
+**Homepage:** [timelyapp.com](https://timelyapp.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

@@ -24,6 +24,8 @@ meta_description: "Comprehensive Outlook Calendar review with testing results, M
 - **Starting Price**: Free with Outlook.com; Microsoft 365 from $6/user/month
 - **Bottom Line**: Powerful business calendar with enterprise features, but complexity may overwhelm casual users.
 
+**Homepage:** [outlook.live.com/calendar](https://outlook.live.com/calendar/)
+
 ## 📅 Introduction
 
 The Outlook Calendar is part of the Microsoft 365 suite and is widely used in business environments. This review explores its features, usability, pricing, and how it stacks up against competitors like Google Calendar.

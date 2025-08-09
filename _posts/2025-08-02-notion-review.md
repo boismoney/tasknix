@@ -26,6 +26,8 @@ permalink: /notion-review/
 - **Starting Price**: Free for personal use
 - **Bottom Line**: Incredibly powerful but requires patience and dedication to unlock full potential.
 
+**Homepage:** [notion.so](https://www.notion.so/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

@@ -24,6 +24,8 @@ meta_description: "Comprehensive RescueTime review with testing results, product
 - **Starting Price**: Free with basic insights; Premium $12/month
 - **Bottom Line**: Excellent for productivity awareness and insights, but limited in providing concrete improvement strategies.
 
+**Homepage:** [rescuetime.com](https://www.rescuetime.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

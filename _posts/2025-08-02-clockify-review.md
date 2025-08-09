@@ -60,11 +60,8 @@ schema_markup: |
 
 **Rating: ⭐⭐⭐⭐☆ (3.9/5)**
 
-- **Best For**: Teams and organizations needing comprehensive time tracking without budget constraints
-- **Starting Price**: Free forever with unlimited users; paid plans from $3.99/user/month
-- **Bottom Line**: Exceptional value with robust features in the free tier
-- **Alternative To**: Toggl Track, Harvest, RescueTime
-- **Setup Time**: ~15 minutes for basic setup, 1-2 hours for team configuration
+
+**Homepage:** [clockify.me](https://clockify.me/)
 
 ### Key Metrics
 

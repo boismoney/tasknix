@@ -24,6 +24,8 @@ meta_description: "Comprehensive Dropbox review with testing results, sync analy
 - **Starting Price**: Free 2GB, paid plans from $10/month
 - **Bottom Line**: Premium file sync experience with robust sharing, but pricing is higher than competitors.
 
+**Homepage:** [dropbox.com](https://www.dropbox.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

@@ -16,6 +16,8 @@ meta_description: "Comprehensive Bear review with testing results, markdown anal
 
 ## 🎯 Quick Verdict
 
+**Homepage:** [bear.app](https://bear.app/)
+
 **Bear** delivers a gorgeous, distraction-free writing experience with excellent markdown support and seamless Apple ecosystem integration, though it's limited to Apple devices and lacks advanced organization features.
 
 **Rating: ⭐⭐⭐⭐☆ (4.0/5)**

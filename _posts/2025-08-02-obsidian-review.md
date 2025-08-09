@@ -24,6 +24,8 @@ meta_description: "Comprehensive Obsidian review with testing results, plugin an
 - **Starting Price**: Free for personal use
 - **Bottom Line**: Powerful knowledge management with steep learning curve but incredible depth and customization.
 
+**Homepage:** [obsidian.md](https://obsidian.md/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

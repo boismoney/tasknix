@@ -24,6 +24,8 @@ meta_description: "Comprehensive Wrike review with testing results, enterprise f
 - **Starting Price**: Free for 5 users; paid plans from $9.80/user/month
 - **Bottom Line**: Powerful enterprise features with excellent customization, but complexity may overwhelm smaller teams.
 
+**Homepage:** [wrike.com](https://wrike.com)
+
 ## Table of Contents
 
 1. [Introduction](#introduction)

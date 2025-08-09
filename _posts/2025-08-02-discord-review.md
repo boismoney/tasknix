@@ -24,6 +24,8 @@ meta_description: "Comprehensive Discord review with testing results, community 
 - **Starting Price**: Free with excellent features; Nitro from $9.99/month
 - **Bottom Line**: Outstanding community features and voice quality, but less suitable for formal business environments.
 
+**Homepage:** [discord.com](https://discord.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

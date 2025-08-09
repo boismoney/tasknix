@@ -24,6 +24,8 @@ meta_description: "Comprehensive Trello review with testing results, Power-Up an
 - **Starting Price**: Free for basic features
 - **Bottom Line**: Excellent for straightforward project visualization but limited for complex project management requirements.
 
+**Homepage:** [trello.com](https://trello.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

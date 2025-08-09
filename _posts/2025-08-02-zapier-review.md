@@ -24,6 +24,8 @@ meta_description: "Comprehensive Zapier review with testing results, automation 
 - **Starting Price**: Free for basic automations; paid plans from $19.99/month
 - **Bottom Line**: Powerful no-code automation platform with extensive integrations, but costs can add up for complex workflows.
 
+**Homepage:** [zapier.com](https://zapier.com)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

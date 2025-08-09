@@ -24,6 +24,8 @@ meta_description: "Comprehensive Google Meet review with testing results, Google
 - **Starting Price**: Free with limitations; Google Workspace from $6/user/month
 - **Bottom Line**: Solid video conferencing with good integration, but may lack features for specialized use cases.
 
+**Homepage:** [meet.google.com](https://meet.google.com/)
+
 ## 📅 Introduction
 
 This review provides an in-depth analysis of Google Meet based on six months of extensive testing. As video conferencing becomes increasingly vital for personal and professional communication, choosing the right platform is crucial. Google Meet emerges as a strong contender, especially for those already embedded in the Google ecosystem.

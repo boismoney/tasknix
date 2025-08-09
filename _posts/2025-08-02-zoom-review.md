@@ -24,6 +24,8 @@ meta_description: "Comprehensive Zoom review with testing results, security anal
 - **Starting Price**: Free for 40-minute group meetings
 - **Bottom Line**: Industry-leading video quality and reliability, though security concerns and pricing can be issues for some organizations.
 
+**Homepage:** [zoom.us](https://zoom.us)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

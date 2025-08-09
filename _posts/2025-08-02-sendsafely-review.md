@@ -24,6 +24,8 @@ meta_description: "Comprehensive SendSafely review with testing results, securit
 - **Starting Price**: $8/user/month for professional features
 - **Bottom Line**: Outstanding security and compliance features, but premium pricing and complexity may deter smaller organizations.
 
+**Homepage:** [sendsafely.com](https://www.sendsafely.com/)
+
 ## 📚 Table of Contents
 
 1. [Overview](#overview)

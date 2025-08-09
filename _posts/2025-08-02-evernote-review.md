@@ -24,6 +24,8 @@ meta_description: "Comprehensive Evernote review with testing results, organizat
 - **Starting Price**: Free with limitations, Personal plan $7.99/month
 - **Bottom Line**: Solid traditional note-taking with some modern updates, but may feel dated compared to newer alternatives.
 
+**Homepage:** [evernote.com](https://evernote.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

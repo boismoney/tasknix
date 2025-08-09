@@ -24,6 +24,8 @@ meta_description: "Comprehensive Everhour review with testing results, project m
 - **Starting Price**: Free for 5 users; paid plans from $8.50/user/month
 - **Bottom Line**: Outstanding PM tool integration with solid features, though standalone functionality is limited.
 
+**Homepage:** [everhour.com](https://everhour.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

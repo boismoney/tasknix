@@ -23,6 +23,8 @@ seo_title: "Jira Review 2025 - Pros, Cons & Agile Development Analysis"
 - **Starting Price**: Free for up to 10 users; paid plans from $7.16/user/month
 - **Bottom Line**: Incredibly powerful for development workflows but requires significant setup and training investment.
 
+**Homepage:** [atlassian.com/software/jira](https://www.atlassian.com/software/jira)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

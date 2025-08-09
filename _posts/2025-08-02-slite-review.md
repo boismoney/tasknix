@@ -24,6 +24,8 @@ meta_description: "Comprehensive Slite review with testing results, knowledge ma
 - **Starting Price**: Free for small teams; paid plans from $8/user/month
 - **Bottom Line**: Great for straightforward team documentation, but limited for complex knowledge management needs.
 
+**Homepage:** [slite.com](https://slite.com/)
+
 ## 📚 Overview
 
 Slite is a user-friendly documentation tool designed to help teams manage knowledge and collaborate effectively. This review explores its features, pricing, and how it compares to other tools like Notion and Confluence.

@@ -16,6 +16,8 @@ meta_description: "Comprehensive Chanty review with testing results, communicati
 
 ## 🎯 Quick Verdict
 
+**Homepage:** [chanty.com](https://www.chanty.com/)
+
 **Chanty** provides straightforward team communication with a clean interface and competitive pricing, making it a viable alternative for teams seeking simplicity over advanced features.
 
 **Rating: ⭐⭐⭐⭐☆ (3.6/5)**

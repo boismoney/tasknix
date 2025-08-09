@@ -24,6 +24,8 @@ meta_description: "Comprehensive TeamGantt review with testing results, Gantt ch
 - **Starting Price**: Free for 3 users and 1 project; paid plans from $24.95/month
 - **Bottom Line**: Excellent for Gantt-focused project management with beautiful design, but limited beyond timeline planning.
 
+**Homepage:** [teamgantt.com](https://www.teamgantt.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

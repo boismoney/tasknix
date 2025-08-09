@@ -24,6 +24,8 @@ meta_description: "Comprehensive Slack review with testing results, integration 
 - **Starting Price**: Free for small teams (10K message history)
 - **Bottom Line**: Excellent communication platform with some of the best integrations available, but costs can add up for growing teams.
 
+**Homepage:** [slack.com](https://slack.com/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |

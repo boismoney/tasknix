@@ -24,6 +24,8 @@ meta_description: "Comprehensive Microsoft Teams review with testing results, Of
 - **Starting Price**: Free basic version, Microsoft 365 plans from $6/user/month
 - **Bottom Line**: Powerful all-in-one platform that excels with Office integration but has a steeper learning curve.
 
+**Homepage:** [microsoft.com/microsoft-teams](https://www.microsoft.com/microsoft-teams/)
+
 ## ✅ Pros vs ❌ Cons
 
 | ✅ Pros | ❌ Cons |
